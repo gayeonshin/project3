@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+$fontColor : rgb(19,52,118);
+
+.effect{
+    &1{
+        $color: rgb(237, 242, 255);
+        background-color: $color;
+    }
+
+    &2{
+        background-color: $color;
+    }
+
+    &3{
+        background-color: $color;
+    }
+
+    &4{
+        background-color: $color;
+    }
+}
