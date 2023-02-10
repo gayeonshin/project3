@@ -7,36 +7,33 @@
     <title>윌라(Welaaa)</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/mixin.css">
     <!-- 폰트 -->
+    <!-- header,footer 폰트 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff">
+    <!-- index 폰트 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2">    
     <!-- 아이콘 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-        $(function(){
-            $(".owner").click(function(){
-                $(".owner_info").slideToggle();
-            });
-        });
-    </script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <div id="#wrap">
         <!-- header -->
         <header>
-            <div class="logo1">
+            <div class="h_logo">
                 <a href="#"><img src="img/logo_1.png" alt="headerlogo"></a>
             </div>
-            <div class="inner1">    
-                <div class="nav1">
+            <div class="h_inner">    
+                <div class="type">
                     <ul>
                         <li><a href="#">오디오북</a></li>
                         <li><a href="#">클래스</a></li>
                     </ul>
                 </div>
-                <div class="nav2">
+                <div class="login">
                     <ul>
                         <li><a href="#">로그인</a></li>
                         <li>|</li>
@@ -55,7 +52,7 @@
         </div>
         <!-- 윌라 오디오북 효과 -->
         <div class="audiobook">
-            <div class="inner3">
+            <div class="a_inner">
                 <p>이용자 90% 이상이 직접 경험한</p><br>
                 <span>윌라 오디오북 효과</span>
                 <div class="effect">
@@ -87,7 +84,6 @@
                             수면의 질 향상 회원 비중</p>
                         </div>
                     </div>
-                
                     <div class="effect3">
                         <span>운전 중에도, 대중교통에서도<br>
                         이동 시간이 유익해졌어요!</span>
@@ -118,12 +114,164 @@
                     </div>
                 </div>
             </div>
+        </div>        
+        <div class="book">
+            <!-- 윌라만의 스페셜 라인업 -->
+            <div class="book1">
+                <p>책을 읽어준다고 다 같은 오디오북일까요?</p>
+                <strong>오디오북의 품격을 높인 <span>윌라만의 스페셜 라인업</span></strong>
+                <div class="book1_1">
+                    <strong>윌라 시그니처 오디오북</strong>
+                    <p>멀티 성우 캐스팅과 특별한 음향효과로 더 공들여 만든 고퀄리티 오디오북.<br>
+                    윌라 시그니처 오디오북으로, 차원이 다른 즐거움을 경험하세요.</p>
+                    <div class="b_inner">
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                    </div>
+                </div>
+                <div class="book1_2">
+                    <strong>윌라 독점 오디오북</strong>
+                    <p>엄선된 작품만을 골라 자체 제작으로 완성된 독점 오디오북.<br>
+                    윌라 오리지널은 오직 윌라에서만 만날 수 있습니다.
+                    </p>
+                    <div class="b_inner">
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                    </div>
+                </div>
+                <div class="book1_3">
+                    <strong>윌라 매거진</strong>
+                    <p>유명 매거진을 오디오북으로!<br>
+                    이런 기특한 생각, 윌라가 먼저 했습니다.<br>
+                    시사와 패션, 비즈니스, 과학 등 다양한 분야의 매거진을 만나보세요.</p>
+                    <div class="b_inner">
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                    </div>
+                </div>
+                <div class="book1_4">
+                    <strong>윌라 클래스</strong>
+                    <p>윌라 회원만이 누리는 진정한 특권!<br>
+                    리더들의 명강, 어학 및 직무 강의까지
+                    윌라 클래스도 무제한으로 즐길 수 있습니다.</p>
+                    <div class="b_inner">
+                        <div class="b_inner2"></div>
+                        <div class="b_inner2"></div>
+                        <div class="b_inner2"></div>
+                        <div class="b_inner2"></div>
+                    </div>
+                </div>
+                <div class="book1_5">
+                    <strong>윌라 북토크</strong>
+                    <p>방금 들은 오디오북에 이런 비하인드 스토리가?<br>
+                    책만큼이나 재미있는 작가의 이야기.<br>
+                    윌라 북토크에서 공개됩니다.</p>
+                    <div class="b_inner">
+                        <div class="b_inner2"></div>
+                        <div class="b_inner2"></div>
+                        <div class="b_inner2"></div>
+                        <div class="b_inner2"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 큐레이션 시리즈 -->
+            <div class="book2">
+                <p>어떤 작품을 들을지 고민된다면?</p>
+                <strong>오디오북에 진심이니까.<br>
+                윌라의 믿고 듣는 <span>큐레이션 시리즈</span></strong>
+                <div class="book2_1">
+                    <strong>이달의 오디오북</strong>
+                    <p>실패 없는 오디오북 선택 노하우.<br>
+                    윌라 에디터들이 추천하는 MUST LISTEN 콘텐츠.</p>
+                    <div class="b_inner">
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                    </div>
+                </div>
+                <div class="book2_2">
+                    <strong>아동/주니어</strong>
+                    <p>우리 아이, 책과 친해지려면?<br>
+                    영유아부터 청소년 필독서까지 1천여 권의 주니어 도서도 무제한으로.</p>
+                    <div class="b_inner">
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                    </div>
+                </div>
+                <div class="book2_3">
+                    <strong>테마별 클래스</strong>
+                    <p>뭘 좋아할지 몰라서 테마별로 준비했어요.<br>
+                    다양한 주제별로 골라 보는 클래스.</p>
+                    <div class="b_inner">
+                        <div class="b_inner3"></div>
+                        <div class="b_inner3"></div>
+                        <div class="b_inner3"></div>
+                        <div class="b_inner3"></div>
+                        <div class="b_inner3"></div>
+                        <div class="b_inner3"></div>
+                    </div>
+                </div>
+                <div class="book2_4">
+                    <strong>Coming Soon 기대작</strong>
+                    <p>윌라의 업데이트는 앞으로도 영원히 계속될 예정.<br>
+                    곧 만날 수 있는 오픈 기대작.</p>
+                    <div class="b_inner">
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                        <div class="b_inner1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 무료체험,해지 -->
+        <div class="free">
+            <img src="img/free.png" alt="무료체험">
         </div>
         <!-- footer -->
         <footer>
-            <div class="inner2">
-                <div class="nav3">
-                    <div class="logo2">
+            <div class="f_inner">
+                <div class="nav">
+                    <div class="f_logo">
                         <img src="img/logo_2.svg" alt="footerlogo">
                     </div>
                     <div class="info">
@@ -144,10 +292,30 @@
                     </div>
                     <div class="sns">
                         <ul>
-                            <li><a href="#"><object data="img/blog.svg" class="blog"></object></a></li>
-                            <li><a href="#"><img src="img/instagram.svg" alt="instagram"></a></li>
-                            <li><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
-                            <li><a href="#"><img src="img/youtube.svg" alt="youtube"></a></li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/blog.svg" alt="blog" class="black">
+                                    <img src="img/blog_hover.svg" alt="blog_hover" class="yellowgreen">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/instagram.svg" alt="instagram" class="black">
+                                    <img src="img/instagram_hover.svg" alt="instagram_hover" class="yellowgreen">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/facebook.svg" alt="facebook" class="black">
+                                    <img src="img/facebook_hover.svg" alt="facebook_hover" class="yellowgreen">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/youtube.svg" alt="youtube" class="black">
+                                    <img src="img/youtube_hover.svg" alt="youtube_hover" class="yellowgreen">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

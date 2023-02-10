@@ -1,22 +1,147 @@
 @charset "utf-8";
 
+$mainColor : #00c73c;
 $fontColor : rgb(19,52,118);
 
-.effect{
-    &1{
-        $color: rgb(237, 242, 255);
-        background-color: $color;
+// 윌라 오디오북 효과
+@mixin box{
+    width: 45%; 
+    height: 33.599rem; 
+    padding: 4% 0 0 4%; 
+    border-radius: 2.5rem;
+    span{
+        font-size: 3.333rem; 
+        color: $fontColor;
     }
-
-    &2{
-        background-color: $color;
+    &_1, &_2{
+        height: 4.599rem; 
+        display: flex;
+        img{
+            width: 7.205rem; 
+            height: 4.599rem; 
+            margin-right: 0.833rem;
+        }
+        p{
+            font-size: 1.8rem; 
+            margin: 0.5% 0; 
+            color: $fontColor; 
+        }  
     }
+}
 
-    &3{
-        background-color: $color;
+.audiobook{
+    width: 100%; 
+    height: auto; 
+    padding-top: 7%;
+    .a_inner{
+        width: 85%; 
+        height: auto; 
+        margin: auto; 
+        font-family: 'SUIT-Regular';
+        p{
+            font-size: 4.583rem;
+        }
+        span{
+            font-size: 4.583rem; 
+            font-weight: bold;
+        }
+        .effect{
+            width: 100%; 
+            height: 82.333rem; 
+            margin-top: 5%; 
+            display: flex; 
+            flex-wrap: wrap;
+            &1{
+                @include box;
+                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat; 
+                margin: 0 2% 0 0;
+                &_1{ 
+                    margin: 4rem 0 1.25rem 0;
+                }
+            }
+
+            &2{
+                @include box;
+                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+                &_1{ 
+                    margin: 4rem 0 1.25rem 0;  
+                }
+            }
+
+            &3{
+                @include box;
+                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat; 
+                margin: 0 2% 0 0; 
+                &_1{ 
+                    margin: 4rem 0 1.25rem 0;
+                }
+            }
+
+            &4{
+                @include box;
+                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+                &_1{ 
+                    margin: 4rem 0 1.25rem 0; 
+                }
+            }
+        }
     }
+}
 
-    &4{
-        background-color: $color;
+// 윌라만의 스폐설 라인업,큐레이션 시리즈
+@mixin book{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    background-color: lightcyan;
+    p,strong,span{
+        font-size: 4.583rem;
+    }
+    span{
+        color: $mainColor;
+    }
+    &_1,&_2,&_3,&_4,&_5{
+        background-color: lightskyblue;
+        margin-top: 4%;
+        strong{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 22px;
+            margin: 1% 0;
+        }
+        .b_inner{
+            width: 100%;
+            height: auto;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-between;
+            &1{
+                width: 10%;
+                height: 19.4775rem;
+                background-color: skyblue;
+            }
+            &2{
+                width: 24%;
+                height: 14.328rem;
+                background-color: lightcoral;
+            }
+            &3{
+                width: 15%;
+                height: 29.578rem;
+                background-color: lightgoldenrodyellow;
+            }
+        }
+    }
+}
+
+.book{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    font-family: 'SUIT-Regular';
+    &1,&2{
+        @include book;
     }
 }
