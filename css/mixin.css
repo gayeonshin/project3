@@ -141,15 +141,13 @@
 .book {
   width: 100%;
   height: auto;
-  background-color: aliceblue;
   font-family: "SUIT-Regular";
 }
 .book1, .book2 {
   width: 85%;
   height: auto;
   margin: auto;
-  margin-top: 10%;
-  background-color: lightcyan;
+  padding-top: 10%;
 }
 .book1 p, .book1 strong, .book1 span, .book2 p, .book2 strong, .book2 span {
   font-size: 4.583rem;
@@ -158,35 +156,42 @@
   color: #00c73c;
 }
 .book1_1, .book1_2, .book1_3, .book1_4, .book1_5, .book2_1, .book2_2, .book2_3, .book2_4, .book2_5 {
-  background-color: lightskyblue;
   margin-top: 4%;
 }
 .book1_1 strong, .book1_2 strong, .book1_3 strong, .book1_4 strong, .book1_5 strong, .book2_1 strong, .book2_2 strong, .book2_3 strong, .book2_4 strong, .book2_5 strong {
   font-size: 2.5rem;
 }
 .book1_1 p, .book1_2 p, .book1_3 p, .book1_4 p, .book1_5 p, .book2_1 p, .book2_2 p, .book2_3 p, .book2_4 p, .book2_5 p {
-  font-size: 22px;
+  font-size: 1.833rem;
   margin: 1% 0;
 }
 .book1_1 .b_inner, .book1_2 .b_inner, .book1_3 .b_inner, .book1_4 .b_inner, .book1_5 .b_inner, .book2_1 .b_inner, .book2_2 .b_inner, .book2_3 .b_inner, .book2_4 .b_inner, .book2_5 .b_inner {
   width: 100%;
   height: auto;
-  background-color: lightblue;
   display: flex;
   justify-content: space-between;
 }
-.book1_1 .b_inner1, .book1_2 .b_inner1, .book1_3 .b_inner1, .book1_4 .b_inner1, .book1_5 .b_inner1, .book2_1 .b_inner1, .book2_2 .b_inner1, .book2_3 .b_inner1, .book2_4 .b_inner1, .book2_5 .b_inner1 {
+.book1_1 .b_inner1, .book1_1 .b_inner2, .book1_1 .b_inner3, .book1_1 .b_inner4, .book1_1 .b_inner5, .book1_1 .b_inner6, .book1_2 .b_inner1, .book1_2 .b_inner2, .book1_2 .b_inner3, .book1_2 .b_inner4, .book1_2 .b_inner5, .book1_2 .b_inner6, .book1_3 .b_inner1, .book1_3 .b_inner2, .book1_3 .b_inner3, .book1_3 .b_inner4, .book1_3 .b_inner5, .book1_3 .b_inner6, .book1_4 .b_inner1, .book1_4 .b_inner2, .book1_4 .b_inner3, .book1_4 .b_inner4, .book1_4 .b_inner5, .book1_4 .b_inner6, .book1_5 .b_inner1, .book1_5 .b_inner2, .book1_5 .b_inner3, .book1_5 .b_inner4, .book1_5 .b_inner5, .book1_5 .b_inner6, .book2_1 .b_inner1, .book2_1 .b_inner2, .book2_1 .b_inner3, .book2_1 .b_inner4, .book2_1 .b_inner5, .book2_1 .b_inner6, .book2_2 .b_inner1, .book2_2 .b_inner2, .book2_2 .b_inner3, .book2_2 .b_inner4, .book2_2 .b_inner5, .book2_2 .b_inner6, .book2_3 .b_inner1, .book2_3 .b_inner2, .book2_3 .b_inner3, .book2_3 .b_inner4, .book2_3 .b_inner5, .book2_3 .b_inner6, .book2_4 .b_inner1, .book2_4 .b_inner2, .book2_4 .b_inner3, .book2_4 .b_inner4, .book2_4 .b_inner5, .book2_4 .b_inner6, .book2_5 .b_inner1, .book2_5 .b_inner2, .book2_5 .b_inner3, .book2_5 .b_inner4, .book2_5 .b_inner5, .book2_5 .b_inner6 {
   width: 10%;
   height: 19.4775rem;
-  background-color: skyblue;
 }
-.book1_1 .b_inner2, .book1_2 .b_inner2, .book1_3 .b_inner2, .book1_4 .b_inner2, .book1_5 .b_inner2, .book2_1 .b_inner2, .book2_2 .b_inner2, .book2_3 .b_inner2, .book2_4 .b_inner2, .book2_5 .b_inner2 {
+.book1_1 .b_inner1 img, .book1_1 .b_inner2 img, .book1_1 .b_inner3 img, .book1_1 .b_inner4 img, .book1_1 .b_inner5 img, .book1_1 .b_inner6 img, .book1_2 .b_inner1 img, .book1_2 .b_inner2 img, .book1_2 .b_inner3 img, .book1_2 .b_inner4 img, .book1_2 .b_inner5 img, .book1_2 .b_inner6 img, .book1_3 .b_inner1 img, .book1_3 .b_inner2 img, .book1_3 .b_inner3 img, .book1_3 .b_inner4 img, .book1_3 .b_inner5 img, .book1_3 .b_inner6 img, .book1_4 .b_inner1 img, .book1_4 .b_inner2 img, .book1_4 .b_inner3 img, .book1_4 .b_inner4 img, .book1_4 .b_inner5 img, .book1_4 .b_inner6 img, .book1_5 .b_inner1 img, .book1_5 .b_inner2 img, .book1_5 .b_inner3 img, .book1_5 .b_inner4 img, .book1_5 .b_inner5 img, .book1_5 .b_inner6 img, .book2_1 .b_inner1 img, .book2_1 .b_inner2 img, .book2_1 .b_inner3 img, .book2_1 .b_inner4 img, .book2_1 .b_inner5 img, .book2_1 .b_inner6 img, .book2_2 .b_inner1 img, .book2_2 .b_inner2 img, .book2_2 .b_inner3 img, .book2_2 .b_inner4 img, .book2_2 .b_inner5 img, .book2_2 .b_inner6 img, .book2_3 .b_inner1 img, .book2_3 .b_inner2 img, .book2_3 .b_inner3 img, .book2_3 .b_inner4 img, .book2_3 .b_inner5 img, .book2_3 .b_inner6 img, .book2_4 .b_inner1 img, .book2_4 .b_inner2 img, .book2_4 .b_inner3 img, .book2_4 .b_inner4 img, .book2_4 .b_inner5 img, .book2_4 .b_inner6 img, .book2_5 .b_inner1 img, .book2_5 .b_inner2 img, .book2_5 .b_inner3 img, .book2_5 .b_inner4 img, .book2_5 .b_inner5 img, .book2_5 .b_inner6 img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.book1_1 .b_inner .willa1, .book1_1 .b_inner .willa2, .book1_2 .b_inner .willa1, .book1_2 .b_inner .willa2, .book1_3 .b_inner .willa1, .book1_3 .b_inner .willa2, .book1_4 .b_inner .willa1, .book1_4 .b_inner .willa2, .book1_5 .b_inner .willa1, .book1_5 .b_inner .willa2, .book2_1 .b_inner .willa1, .book2_1 .b_inner .willa2, .book2_2 .b_inner .willa1, .book2_2 .b_inner .willa2, .book2_3 .b_inner .willa1, .book2_3 .b_inner .willa2, .book2_4 .b_inner .willa1, .book2_4 .b_inner .willa2, .book2_5 .b_inner .willa1, .book2_5 .b_inner .willa2 {
   width: 24%;
-  height: 14.328rem;
-  background-color: lightcoral;
+  height: auto;
 }
-.book1_1 .b_inner3, .book1_2 .b_inner3, .book1_3 .b_inner3, .book1_4 .b_inner3, .book1_5 .b_inner3, .book2_1 .b_inner3, .book2_2 .b_inner3, .book2_3 .b_inner3, .book2_4 .b_inner3, .book2_5 .b_inner3 {
+.book1_1 .b_inner .willa1 img, .book1_1 .b_inner .willa2 img, .book1_2 .b_inner .willa1 img, .book1_2 .b_inner .willa2 img, .book1_3 .b_inner .willa1 img, .book1_3 .b_inner .willa2 img, .book1_4 .b_inner .willa1 img, .book1_4 .b_inner .willa2 img, .book1_5 .b_inner .willa1 img, .book1_5 .b_inner .willa2 img, .book2_1 .b_inner .willa1 img, .book2_1 .b_inner .willa2 img, .book2_2 .b_inner .willa1 img, .book2_2 .b_inner .willa2 img, .book2_3 .b_inner .willa1 img, .book2_3 .b_inner .willa2 img, .book2_4 .b_inner .willa1 img, .book2_4 .b_inner .willa2 img, .book2_5 .b_inner .willa1 img, .book2_5 .b_inner .willa2 img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.book1_1 .b_inner .thema, .book1_2 .b_inner .thema, .book1_3 .b_inner .thema, .book1_4 .b_inner .thema, .book1_5 .b_inner .thema, .book2_1 .b_inner .thema, .book2_2 .b_inner .thema, .book2_3 .b_inner .thema, .book2_4 .b_inner .thema, .book2_5 .b_inner .thema {
   width: 15%;
-  height: 29.578rem;
-  background-color: lightgoldenrodyellow;
+  height: auto;
+}
+.book1_1 .b_inner .thema img, .book1_2 .b_inner .thema img, .book1_3 .b_inner .thema img, .book1_4 .b_inner .thema img, .book1_5 .b_inner .thema img, .book2_1 .b_inner .thema img, .book2_2 .b_inner .thema img, .book2_3 .b_inner .thema img, .book2_4 .b_inner .thema img, .book2_5 .b_inner .thema img {
+  width: 100%;
+  border-radius: 0.5rem;
 }

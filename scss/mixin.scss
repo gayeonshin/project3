@@ -93,8 +93,7 @@ $fontColor : rgb(19,52,118);
     width: 85%;
     height: auto;
     margin: auto;
-    margin-top: 10%;
-    background-color: lightcyan;
+    padding-top: 10%;
     p,strong,span{
         font-size: 4.583rem;
     }
@@ -102,36 +101,43 @@ $fontColor : rgb(19,52,118);
         color: $mainColor;
     }
     &_1,&_2,&_3,&_4,&_5{
-        background-color: lightskyblue;
         margin-top: 4%;
         strong{
             font-size: 2.5rem;
         }
         p{
-            font-size: 22px;
+            font-size: 1.833rem;
             margin: 1% 0;
         }
         .b_inner{
             width: 100%;
             height: auto;
-            background-color: lightblue;
             display: flex;
             justify-content: space-between;
-            &1{
+            &1,&2,&3,&4,&5,&6{
                 width: 10%;
                 height: 19.4775rem;
-                background-color: skyblue;
+                img{
+                    width: 100%;
+                    border-radius: 0.5rem;
+                }
             }
-            &2{
+            .willa1,.willa2{
                 width: 24%;
-                height: 14.328rem;
-                background-color: lightcoral;
+                height: auto;
+                img{
+                    width: 100%;
+                    border-radius: 0.5rem;
+                }
             }
-            &3{
+            .thema{
                 width: 15%;
-                height: 29.578rem;
-                background-color: lightgoldenrodyellow;
-            }
+                height: auto;
+                img{
+                    width: 100%;
+                    border-radius: 0.5rem;
+                }
+            }        
         }
     }
 }
@@ -139,7 +145,6 @@ $fontColor : rgb(19,52,118);
 .book{
     width: 100%;
     height: auto;
-    background-color: aliceblue;
     font-family: 'SUIT-Regular';
     &1,&2{
         @include book;

@@ -156,15 +156,13 @@ a {
 .book {
   width: 100%;
   height: auto;
-  background-color: aliceblue;
   font-family: "SUIT-Regular";
 }
 .book1, .book2 {
   width: 85%;
   height: auto;
   margin: auto;
-  margin-top: 10%;
-  background-color: lightcyan;
+  padding-top: 10%;
 }
 .book1 p, .book1 strong, .book1 span, .book2 p, .book2 strong, .book2 span {
   font-size: 4.583rem;
@@ -173,42 +171,55 @@ a {
   color: #00c73c;
 }
 .book1_1, .book1_2, .book1_3, .book1_4, .book1_5, .book2_1, .book2_2, .book2_3, .book2_4, .book2_5 {
-  background-color: lightskyblue;
   margin-top: 4%;
 }
 .book1_1 strong, .book1_2 strong, .book1_3 strong, .book1_4 strong, .book1_5 strong, .book2_1 strong, .book2_2 strong, .book2_3 strong, .book2_4 strong, .book2_5 strong {
   font-size: 2.5rem;
 }
 .book1_1 p, .book1_2 p, .book1_3 p, .book1_4 p, .book1_5 p, .book2_1 p, .book2_2 p, .book2_3 p, .book2_4 p, .book2_5 p {
-  font-size: 22px;
+  font-size: 1.833rem;
   margin: 1% 0;
 }
 .book1_1 .b_inner, .book1_2 .b_inner, .book1_3 .b_inner, .book1_4 .b_inner, .book1_5 .b_inner, .book2_1 .b_inner, .book2_2 .b_inner, .book2_3 .b_inner, .book2_4 .b_inner, .book2_5 .b_inner {
   width: 100%;
   height: auto;
-  background-color: lightblue;
   display: flex;
   justify-content: space-between;
 }
-.book1_1 .b_inner1, .book1_2 .b_inner1, .book1_3 .b_inner1, .book1_4 .b_inner1, .book1_5 .b_inner1, .book2_1 .b_inner1, .book2_2 .b_inner1, .book2_3 .b_inner1, .book2_4 .b_inner1, .book2_5 .b_inner1 {
+.book1_1 .b_inner1, .book1_1 .b_inner2, .book1_1 .b_inner3, .book1_1 .b_inner4, .book1_1 .b_inner5, .book1_1 .b_inner6, .book1_2 .b_inner1, .book1_2 .b_inner2, .book1_2 .b_inner3, .book1_2 .b_inner4, .book1_2 .b_inner5, .book1_2 .b_inner6, .book1_3 .b_inner1, .book1_3 .b_inner2, .book1_3 .b_inner3, .book1_3 .b_inner4, .book1_3 .b_inner5, .book1_3 .b_inner6, .book1_4 .b_inner1, .book1_4 .b_inner2, .book1_4 .b_inner3, .book1_4 .b_inner4, .book1_4 .b_inner5, .book1_4 .b_inner6, .book1_5 .b_inner1, .book1_5 .b_inner2, .book1_5 .b_inner3, .book1_5 .b_inner4, .book1_5 .b_inner5, .book1_5 .b_inner6, .book2_1 .b_inner1, .book2_1 .b_inner2, .book2_1 .b_inner3, .book2_1 .b_inner4, .book2_1 .b_inner5, .book2_1 .b_inner6, .book2_2 .b_inner1, .book2_2 .b_inner2, .book2_2 .b_inner3, .book2_2 .b_inner4, .book2_2 .b_inner5, .book2_2 .b_inner6, .book2_3 .b_inner1, .book2_3 .b_inner2, .book2_3 .b_inner3, .book2_3 .b_inner4, .book2_3 .b_inner5, .book2_3 .b_inner6, .book2_4 .b_inner1, .book2_4 .b_inner2, .book2_4 .b_inner3, .book2_4 .b_inner4, .book2_4 .b_inner5, .book2_4 .b_inner6, .book2_5 .b_inner1, .book2_5 .b_inner2, .book2_5 .b_inner3, .book2_5 .b_inner4, .book2_5 .b_inner5, .book2_5 .b_inner6 {
   width: 10%;
   height: 19.4775rem;
-  background-color: skyblue;
 }
-.book1_1 .b_inner2, .book1_2 .b_inner2, .book1_3 .b_inner2, .book1_4 .b_inner2, .book1_5 .b_inner2, .book2_1 .b_inner2, .book2_2 .b_inner2, .book2_3 .b_inner2, .book2_4 .b_inner2, .book2_5 .b_inner2 {
+.book1_1 .b_inner1 img, .book1_1 .b_inner2 img, .book1_1 .b_inner3 img, .book1_1 .b_inner4 img, .book1_1 .b_inner5 img, .book1_1 .b_inner6 img, .book1_2 .b_inner1 img, .book1_2 .b_inner2 img, .book1_2 .b_inner3 img, .book1_2 .b_inner4 img, .book1_2 .b_inner5 img, .book1_2 .b_inner6 img, .book1_3 .b_inner1 img, .book1_3 .b_inner2 img, .book1_3 .b_inner3 img, .book1_3 .b_inner4 img, .book1_3 .b_inner5 img, .book1_3 .b_inner6 img, .book1_4 .b_inner1 img, .book1_4 .b_inner2 img, .book1_4 .b_inner3 img, .book1_4 .b_inner4 img, .book1_4 .b_inner5 img, .book1_4 .b_inner6 img, .book1_5 .b_inner1 img, .book1_5 .b_inner2 img, .book1_5 .b_inner3 img, .book1_5 .b_inner4 img, .book1_5 .b_inner5 img, .book1_5 .b_inner6 img, .book2_1 .b_inner1 img, .book2_1 .b_inner2 img, .book2_1 .b_inner3 img, .book2_1 .b_inner4 img, .book2_1 .b_inner5 img, .book2_1 .b_inner6 img, .book2_2 .b_inner1 img, .book2_2 .b_inner2 img, .book2_2 .b_inner3 img, .book2_2 .b_inner4 img, .book2_2 .b_inner5 img, .book2_2 .b_inner6 img, .book2_3 .b_inner1 img, .book2_3 .b_inner2 img, .book2_3 .b_inner3 img, .book2_3 .b_inner4 img, .book2_3 .b_inner5 img, .book2_3 .b_inner6 img, .book2_4 .b_inner1 img, .book2_4 .b_inner2 img, .book2_4 .b_inner3 img, .book2_4 .b_inner4 img, .book2_4 .b_inner5 img, .book2_4 .b_inner6 img, .book2_5 .b_inner1 img, .book2_5 .b_inner2 img, .book2_5 .b_inner3 img, .book2_5 .b_inner4 img, .book2_5 .b_inner5 img, .book2_5 .b_inner6 img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.book1_1 .b_inner .willa1, .book1_1 .b_inner .willa2, .book1_2 .b_inner .willa1, .book1_2 .b_inner .willa2, .book1_3 .b_inner .willa1, .book1_3 .b_inner .willa2, .book1_4 .b_inner .willa1, .book1_4 .b_inner .willa2, .book1_5 .b_inner .willa1, .book1_5 .b_inner .willa2, .book2_1 .b_inner .willa1, .book2_1 .b_inner .willa2, .book2_2 .b_inner .willa1, .book2_2 .b_inner .willa2, .book2_3 .b_inner .willa1, .book2_3 .b_inner .willa2, .book2_4 .b_inner .willa1, .book2_4 .b_inner .willa2, .book2_5 .b_inner .willa1, .book2_5 .b_inner .willa2 {
   width: 24%;
-  height: 14.328rem;
-  background-color: lightcoral;
+  height: auto;
 }
-.book1_1 .b_inner3, .book1_2 .b_inner3, .book1_3 .b_inner3, .book1_4 .b_inner3, .book1_5 .b_inner3, .book2_1 .b_inner3, .book2_2 .b_inner3, .book2_3 .b_inner3, .book2_4 .b_inner3, .book2_5 .b_inner3 {
+.book1_1 .b_inner .willa1 img, .book1_1 .b_inner .willa2 img, .book1_2 .b_inner .willa1 img, .book1_2 .b_inner .willa2 img, .book1_3 .b_inner .willa1 img, .book1_3 .b_inner .willa2 img, .book1_4 .b_inner .willa1 img, .book1_4 .b_inner .willa2 img, .book1_5 .b_inner .willa1 img, .book1_5 .b_inner .willa2 img, .book2_1 .b_inner .willa1 img, .book2_1 .b_inner .willa2 img, .book2_2 .b_inner .willa1 img, .book2_2 .b_inner .willa2 img, .book2_3 .b_inner .willa1 img, .book2_3 .b_inner .willa2 img, .book2_4 .b_inner .willa1 img, .book2_4 .b_inner .willa2 img, .book2_5 .b_inner .willa1 img, .book2_5 .b_inner .willa2 img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.book1_1 .b_inner .thema, .book1_2 .b_inner .thema, .book1_3 .b_inner .thema, .book1_4 .b_inner .thema, .book1_5 .b_inner .thema, .book2_1 .b_inner .thema, .book2_2 .b_inner .thema, .book2_3 .b_inner .thema, .book2_4 .b_inner .thema, .book2_5 .b_inner .thema {
   width: 15%;
-  height: 29.578rem;
-  background-color: lightgoldenrodyellow;
+  height: auto;
+}
+.book1_1 .b_inner .thema img, .book1_2 .b_inner .thema img, .book1_3 .b_inner .thema img, .book1_4 .b_inner .thema img, .book1_5 .b_inner .thema img, .book2_1 .b_inner .thema img, .book2_2 .b_inner .thema img, .book2_3 .b_inner .thema img, .book2_4 .b_inner .thema img, .book2_5 .b_inner .thema img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 @font-face {
   font-family: "SUIT-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GangwonEduPowerExtraBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -241,4 +252,103 @@ a {
 }
 .free img {
   width: 100%;
+}
+
+.review {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  padding: 7% 0;
+  font-family: "SUIT-Regular";
+  font-weight: bold;
+  position: relative;
+}
+.review .r_inner {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  color: #fff;
+}
+.review .r_inner p, .review .r_inner span {
+  font-size: 4.583rem;
+}
+.review .r_inner span {
+  color: #00c73c;
+}
+.review .r_inner .r_videowrap {
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
+  overflow: hidden;
+}
+.review .r_inner .r_videowrap .r_video {
+  width: 271rem;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.review .r_inner .r_videowrap .r_video1, .review .r_inner .r_videowrap .r_video2, .review .r_inner .r_videowrap .r_video3, .review .r_inner .r_videowrap .r_video4, .review .r_inner .r_videowrap .r_video5, .review .r_inner .r_videowrap .r_video6, .review .r_inner .r_videowrap .r_video7, .review .r_inner .r_videowrap .r_video8 {
+  width: 32.7rem;
+  height: auto;
+}
+.review .r_inner .r_videowrap .r_video1 iframe, .review .r_inner .r_videowrap .r_video2 iframe, .review .r_inner .r_videowrap .r_video3 iframe, .review .r_inner .r_videowrap .r_video4 iframe, .review .r_inner .r_videowrap .r_video5 iframe, .review .r_inner .r_videowrap .r_video6 iframe, .review .r_inner .r_videowrap .r_video7 iframe, .review .r_inner .r_videowrap .r_video8 iframe {
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 2%;
+}
+.review .r_inner .r_videowrap .r_video1 p, .review .r_inner .r_videowrap .r_video2 p, .review .r_inner .r_videowrap .r_video3 p, .review .r_inner .r_videowrap .r_video4 p, .review .r_inner .r_videowrap .r_video5 p, .review .r_inner .r_videowrap .r_video6 p, .review .r_inner .r_videowrap .r_video7 p, .review .r_inner .r_videowrap .r_video8 p {
+  font-size: 2.166rem;
+}
+.review span {
+  color: #fff;
+  font-size: 5.833rem;
+  position: absolute;
+  cursor: pointer;
+}
+.review .prev {
+  left: 3%;
+  top: 45%;
+}
+.review .next {
+  right: 3%;
+  top: 45%;
+}
+
+.FAQ {
+  width: 55%;
+  height: auto;
+  margin: auto;
+  padding: 2.5% 0 4.5% 0;
+}
+.FAQ strong {
+  font-size: 40px;
+  font-family: "GangwonEduPowerExtraBoldA";
+}
+.FAQ .question {
+  width: 92.6%;
+  height: auto;
+  font-family: "Pretendard-Regular";
+}
+.FAQ .question1, .FAQ .question2, .FAQ .question3, .FAQ .question4, .FAQ .question5 {
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+  padding: 2% 4%;
+  border-radius: 1.5rem;
+  background-color: rgb(245, 246, 249);
+  position: relative;
+}
+.FAQ .question1 span, .FAQ .question1 i, .FAQ .question2 span, .FAQ .question2 i, .FAQ .question3 span, .FAQ .question3 i, .FAQ .question4 span, .FAQ .question4 i, .FAQ .question5 span, .FAQ .question5 i {
+  font-size: 1.666rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.FAQ .question1 i, .FAQ .question2 i, .FAQ .question3 i, .FAQ .question4 i, .FAQ .question5 i {
+  position: absolute;
+  right: 4%;
+}
+.FAQ .question1 p, .FAQ .question2 p, .FAQ .question3 p, .FAQ .question4 p, .FAQ .question5 p {
+  font-size: 1.333rem;
+  margin-top: 2.5%;
+  display: none;
 }

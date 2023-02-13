@@ -16,6 +16,7 @@ header {
   align-items: center;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02);
   font-family: "Pretendard-Regular";
+  z-index: 5;
 }
 header .h_logo {
   width: 4%;
@@ -147,6 +148,7 @@ footer .f_inner .manager .owner_info {
   width: 100%;
   padding-top: 1.25rem;
   color: #666;
+  display: none;
 }
 footer .f_inner .manager .owner_info ul {
   display: flex;

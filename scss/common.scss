@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+$mainColor : #00c73c;
+
 // 폰트
 @font-face {
     font-family: 'Pretendard-Regular';
@@ -23,6 +25,7 @@ header{
     align-items: center; 
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 2%);
     font-family: 'Pretendard-Regular';
+    z-index: 5;
     .h_logo{
         width: 4%; 
         height: 4.666rem;
@@ -155,6 +158,7 @@ footer{
                 width: 100%; 
                 padding-top: 1.25rem; 
                 color: #666;
+                display: none;
                 ul{
                     display: flex; 
                     align-items: center;
@@ -194,7 +198,7 @@ footer{
     button{
         width: 36.667rem; 
         height: 4.333rem; 
-        background-color: #00c73c; 
+        background-color: $mainColor; 
         color: #fff; 
         border: none; 
         font-size: 2.1rem; 
