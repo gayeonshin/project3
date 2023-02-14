@@ -10,10 +10,10 @@
   font-family: "SUIT-Regular";
 }
 .audiobook .a_inner p {
-  font-size: 4.583rem;
+  font-size: 3.9rem;
 }
 .audiobook .a_inner span {
-  font-size: 4.583rem;
+  font-size: 3.9rem;
   font-weight: bold;
 }
 .audiobook .a_inner .effect {
@@ -57,7 +57,7 @@
   height: 33.599rem;
   padding: 4% 0 0 4%;
   border-radius: 2.5rem;
-  background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+  background: rgb(237, 242, 255) url(../img/effect2.png) center right/25rem no-repeat;
 }
 .audiobook .a_inner .effect2 span {
   font-size: 3.333rem;
@@ -85,7 +85,7 @@
   height: 33.599rem;
   padding: 4% 0 0 4%;
   border-radius: 2.5rem;
-  background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+  background: rgb(237, 242, 255) url(../img/effect3.png) center right/25rem no-repeat;
   margin: 0 2% 0 0;
 }
 .audiobook .a_inner .effect3 span {
@@ -114,7 +114,7 @@
   height: 33.599rem;
   padding: 4% 0 0 4%;
   border-radius: 2.5rem;
-  background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+  background: rgb(237, 242, 255) url(../img/effect4.png) center right/25rem no-repeat;
 }
 .audiobook .a_inner .effect4 span {
   font-size: 3.333rem;
@@ -156,6 +156,7 @@
   color: #00c73c;
 }
 .book1_1, .book1_2, .book1_3, .book1_4, .book1_5, .book2_1, .book2_2, .book2_3, .book2_4, .book2_5 {
+  width: 100%;
   margin-top: 4%;
 }
 .book1_1 strong, .book1_2 strong, .book1_3 strong, .book1_4 strong, .book1_5 strong, .book2_1 strong, .book2_2 strong, .book2_3 strong, .book2_4 strong, .book2_5 strong {
@@ -170,28 +171,67 @@
   height: auto;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  position: relative;
 }
-.book1_1 .b_inner1, .book1_1 .b_inner2, .book1_1 .b_inner3, .book1_1 .b_inner4, .book1_1 .b_inner5, .book1_1 .b_inner6, .book1_2 .b_inner1, .book1_2 .b_inner2, .book1_2 .b_inner3, .book1_2 .b_inner4, .book1_2 .b_inner5, .book1_2 .b_inner6, .book1_3 .b_inner1, .book1_3 .b_inner2, .book1_3 .b_inner3, .book1_3 .b_inner4, .book1_3 .b_inner5, .book1_3 .b_inner6, .book1_4 .b_inner1, .book1_4 .b_inner2, .book1_4 .b_inner3, .book1_4 .b_inner4, .book1_4 .b_inner5, .book1_4 .b_inner6, .book1_5 .b_inner1, .book1_5 .b_inner2, .book1_5 .b_inner3, .book1_5 .b_inner4, .book1_5 .b_inner5, .book1_5 .b_inner6, .book2_1 .b_inner1, .book2_1 .b_inner2, .book2_1 .b_inner3, .book2_1 .b_inner4, .book2_1 .b_inner5, .book2_1 .b_inner6, .book2_2 .b_inner1, .book2_2 .b_inner2, .book2_2 .b_inner3, .book2_2 .b_inner4, .book2_2 .b_inner5, .book2_2 .b_inner6, .book2_3 .b_inner1, .book2_3 .b_inner2, .book2_3 .b_inner3, .book2_3 .b_inner4, .book2_3 .b_inner5, .book2_3 .b_inner6, .book2_4 .b_inner1, .book2_4 .b_inner2, .book2_4 .b_inner3, .book2_4 .b_inner4, .book2_4 .b_inner5, .book2_4 .b_inner6, .book2_5 .b_inner1, .book2_5 .b_inner2, .book2_5 .b_inner3, .book2_5 .b_inner4, .book2_5 .b_inner5, .book2_5 .b_inner6 {
-  width: 10%;
+.book1_1 .b_inner .ab, .book1_2 .b_inner .ab, .book1_3 .b_inner .ab, .book1_4 .b_inner .ab, .book1_5 .b_inner .ab, .book2_1 .b_inner .ab, .book2_2 .b_inner .ab, .book2_3 .b_inner .ab, .book2_4 .b_inner .ab, .book2_5 .b_inner .ab {
+  width: 111.11%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.book1_1 .b_inner .ab1, .book1_1 .b_inner .ab2, .book1_1 .b_inner .ab3, .book1_1 .b_inner .ab4, .book1_1 .b_inner .ab5, .book1_1 .b_inner .ab6, .book1_2 .b_inner .ab1, .book1_2 .b_inner .ab2, .book1_2 .b_inner .ab3, .book1_2 .b_inner .ab4, .book1_2 .b_inner .ab5, .book1_2 .b_inner .ab6, .book1_3 .b_inner .ab1, .book1_3 .b_inner .ab2, .book1_3 .b_inner .ab3, .book1_3 .b_inner .ab4, .book1_3 .b_inner .ab5, .book1_3 .b_inner .ab6, .book1_4 .b_inner .ab1, .book1_4 .b_inner .ab2, .book1_4 .b_inner .ab3, .book1_4 .b_inner .ab4, .book1_4 .b_inner .ab5, .book1_4 .b_inner .ab6, .book1_5 .b_inner .ab1, .book1_5 .b_inner .ab2, .book1_5 .b_inner .ab3, .book1_5 .b_inner .ab4, .book1_5 .b_inner .ab5, .book1_5 .b_inner .ab6, .book2_1 .b_inner .ab1, .book2_1 .b_inner .ab2, .book2_1 .b_inner .ab3, .book2_1 .b_inner .ab4, .book2_1 .b_inner .ab5, .book2_1 .b_inner .ab6, .book2_2 .b_inner .ab1, .book2_2 .b_inner .ab2, .book2_2 .b_inner .ab3, .book2_2 .b_inner .ab4, .book2_2 .b_inner .ab5, .book2_2 .b_inner .ab6, .book2_3 .b_inner .ab1, .book2_3 .b_inner .ab2, .book2_3 .b_inner .ab3, .book2_3 .b_inner .ab4, .book2_3 .b_inner .ab5, .book2_3 .b_inner .ab6, .book2_4 .b_inner .ab1, .book2_4 .b_inner .ab2, .book2_4 .b_inner .ab3, .book2_4 .b_inner .ab4, .book2_4 .b_inner .ab5, .book2_4 .b_inner .ab6, .book2_5 .b_inner .ab1, .book2_5 .b_inner .ab2, .book2_5 .b_inner .ab3, .book2_5 .b_inner .ab4, .book2_5 .b_inner .ab5, .book2_5 .b_inner .ab6 {
+  width: 9.6%;
   height: 19.4775rem;
+  padding: 0 0.4%;
 }
-.book1_1 .b_inner1 img, .book1_1 .b_inner2 img, .book1_1 .b_inner3 img, .book1_1 .b_inner4 img, .book1_1 .b_inner5 img, .book1_1 .b_inner6 img, .book1_2 .b_inner1 img, .book1_2 .b_inner2 img, .book1_2 .b_inner3 img, .book1_2 .b_inner4 img, .book1_2 .b_inner5 img, .book1_2 .b_inner6 img, .book1_3 .b_inner1 img, .book1_3 .b_inner2 img, .book1_3 .b_inner3 img, .book1_3 .b_inner4 img, .book1_3 .b_inner5 img, .book1_3 .b_inner6 img, .book1_4 .b_inner1 img, .book1_4 .b_inner2 img, .book1_4 .b_inner3 img, .book1_4 .b_inner4 img, .book1_4 .b_inner5 img, .book1_4 .b_inner6 img, .book1_5 .b_inner1 img, .book1_5 .b_inner2 img, .book1_5 .b_inner3 img, .book1_5 .b_inner4 img, .book1_5 .b_inner5 img, .book1_5 .b_inner6 img, .book2_1 .b_inner1 img, .book2_1 .b_inner2 img, .book2_1 .b_inner3 img, .book2_1 .b_inner4 img, .book2_1 .b_inner5 img, .book2_1 .b_inner6 img, .book2_2 .b_inner1 img, .book2_2 .b_inner2 img, .book2_2 .b_inner3 img, .book2_2 .b_inner4 img, .book2_2 .b_inner5 img, .book2_2 .b_inner6 img, .book2_3 .b_inner1 img, .book2_3 .b_inner2 img, .book2_3 .b_inner3 img, .book2_3 .b_inner4 img, .book2_3 .b_inner5 img, .book2_3 .b_inner6 img, .book2_4 .b_inner1 img, .book2_4 .b_inner2 img, .book2_4 .b_inner3 img, .book2_4 .b_inner4 img, .book2_4 .b_inner5 img, .book2_4 .b_inner6 img, .book2_5 .b_inner1 img, .book2_5 .b_inner2 img, .book2_5 .b_inner3 img, .book2_5 .b_inner4 img, .book2_5 .b_inner5 img, .book2_5 .b_inner6 img {
+.book1_1 .b_inner .ab1 img, .book1_1 .b_inner .ab2 img, .book1_1 .b_inner .ab3 img, .book1_1 .b_inner .ab4 img, .book1_1 .b_inner .ab5 img, .book1_1 .b_inner .ab6 img, .book1_2 .b_inner .ab1 img, .book1_2 .b_inner .ab2 img, .book1_2 .b_inner .ab3 img, .book1_2 .b_inner .ab4 img, .book1_2 .b_inner .ab5 img, .book1_2 .b_inner .ab6 img, .book1_3 .b_inner .ab1 img, .book1_3 .b_inner .ab2 img, .book1_3 .b_inner .ab3 img, .book1_3 .b_inner .ab4 img, .book1_3 .b_inner .ab5 img, .book1_3 .b_inner .ab6 img, .book1_4 .b_inner .ab1 img, .book1_4 .b_inner .ab2 img, .book1_4 .b_inner .ab3 img, .book1_4 .b_inner .ab4 img, .book1_4 .b_inner .ab5 img, .book1_4 .b_inner .ab6 img, .book1_5 .b_inner .ab1 img, .book1_5 .b_inner .ab2 img, .book1_5 .b_inner .ab3 img, .book1_5 .b_inner .ab4 img, .book1_5 .b_inner .ab5 img, .book1_5 .b_inner .ab6 img, .book2_1 .b_inner .ab1 img, .book2_1 .b_inner .ab2 img, .book2_1 .b_inner .ab3 img, .book2_1 .b_inner .ab4 img, .book2_1 .b_inner .ab5 img, .book2_1 .b_inner .ab6 img, .book2_2 .b_inner .ab1 img, .book2_2 .b_inner .ab2 img, .book2_2 .b_inner .ab3 img, .book2_2 .b_inner .ab4 img, .book2_2 .b_inner .ab5 img, .book2_2 .b_inner .ab6 img, .book2_3 .b_inner .ab1 img, .book2_3 .b_inner .ab2 img, .book2_3 .b_inner .ab3 img, .book2_3 .b_inner .ab4 img, .book2_3 .b_inner .ab5 img, .book2_3 .b_inner .ab6 img, .book2_4 .b_inner .ab1 img, .book2_4 .b_inner .ab2 img, .book2_4 .b_inner .ab3 img, .book2_4 .b_inner .ab4 img, .book2_4 .b_inner .ab5 img, .book2_4 .b_inner .ab6 img, .book2_5 .b_inner .ab1 img, .book2_5 .b_inner .ab2 img, .book2_5 .b_inner .ab3 img, .book2_5 .b_inner .ab4 img, .book2_5 .b_inner .ab5 img, .book2_5 .b_inner .ab6 img {
   width: 100%;
   border-radius: 0.5rem;
 }
-.book1_1 .b_inner .willa1, .book1_1 .b_inner .willa2, .book1_2 .b_inner .willa1, .book1_2 .b_inner .willa2, .book1_3 .b_inner .willa1, .book1_3 .b_inner .willa2, .book1_4 .b_inner .willa1, .book1_4 .b_inner .willa2, .book1_5 .b_inner .willa1, .book1_5 .b_inner .willa2, .book2_1 .b_inner .willa1, .book2_1 .b_inner .willa2, .book2_2 .b_inner .willa1, .book2_2 .b_inner .willa2, .book2_3 .b_inner .willa1, .book2_3 .b_inner .willa2, .book2_4 .b_inner .willa1, .book2_4 .b_inner .willa2, .book2_5 .b_inner .willa1, .book2_5 .b_inner .willa2 {
-  width: 24%;
-  height: auto;
+.book1_1 .b_inner span, .book1_2 .b_inner span, .book1_3 .b_inner span, .book1_4 .b_inner span, .book1_5 .b_inner span, .book2_1 .b_inner span, .book2_2 .b_inner span, .book2_3 .b_inner span, .book2_4 .b_inner span, .book2_5 .b_inner span {
+  position: absolute;
+  color: #ccc;
+  opacity: 0.5;
+  cursor: pointer;
+  top: 33%;
 }
-.book1_1 .b_inner .willa1 img, .book1_1 .b_inner .willa2 img, .book1_2 .b_inner .willa1 img, .book1_2 .b_inner .willa2 img, .book1_3 .b_inner .willa1 img, .book1_3 .b_inner .willa2 img, .book1_4 .b_inner .willa1 img, .book1_4 .b_inner .willa2 img, .book1_5 .b_inner .willa1 img, .book1_5 .b_inner .willa2 img, .book2_1 .b_inner .willa1 img, .book2_1 .b_inner .willa2 img, .book2_2 .b_inner .willa1 img, .book2_2 .b_inner .willa2 img, .book2_3 .b_inner .willa1 img, .book2_3 .b_inner .willa2 img, .book2_4 .b_inner .willa1 img, .book2_4 .b_inner .willa2 img, .book2_5 .b_inner .willa1 img, .book2_5 .b_inner .willa2 img {
+.book1_1 .b_inner .before, .book1_2 .b_inner .before, .book1_3 .b_inner .before, .book1_4 .b_inner .before, .book1_5 .b_inner .before, .book2_1 .b_inner .before, .book2_2 .b_inner .before, .book2_3 .b_inner .before, .book2_4 .b_inner .before, .book2_5 .b_inner .before {
+  left: 0;
+}
+.book1_1 .b_inner .after, .book1_2 .b_inner .after, .book1_3 .b_inner .after, .book1_4 .b_inner .after, .book1_5 .b_inner .after, .book2_1 .b_inner .after, .book2_2 .b_inner .after, .book2_3 .b_inner .after, .book2_4 .b_inner .after, .book2_5 .b_inner .after {
+  right: 0;
+}
+.book1_1 .b_inner .willa, .book1_2 .b_inner .willa, .book1_3 .b_inner .willa, .book1_4 .b_inner .willa, .book1_5 .b_inner .willa, .book2_1 .b_inner .willa, .book2_2 .b_inner .willa, .book2_3 .b_inner .willa, .book2_4 .b_inner .willa, .book2_5 .b_inner .willa {
+  width: 250%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.book1_1 .b_inner .willa li, .book1_2 .b_inner .willa li, .book1_3 .b_inner .willa li, .book1_4 .b_inner .willa li, .book1_5 .b_inner .willa li, .book2_1 .b_inner .willa li, .book2_2 .b_inner .willa li, .book2_3 .b_inner .willa li, .book2_4 .b_inner .willa li, .book2_5 .b_inner .willa li {
+  width: 9.6%;
+  height: auto;
+  padding: 0 0.4%;
+}
+.book1_1 .b_inner .willa li img, .book1_2 .b_inner .willa li img, .book1_3 .b_inner .willa li img, .book1_4 .b_inner .willa li img, .book1_5 .b_inner .willa li img, .book2_1 .b_inner .willa li img, .book2_2 .b_inner .willa li img, .book2_3 .b_inner .willa li img, .book2_4 .b_inner .willa li img, .book2_5 .b_inner .willa li img {
   width: 100%;
   border-radius: 0.5rem;
 }
-.book1_1 .b_inner .thema, .book1_2 .b_inner .thema, .book1_3 .b_inner .thema, .book1_4 .b_inner .thema, .book1_5 .b_inner .thema, .book2_1 .b_inner .thema, .book2_2 .b_inner .thema, .book2_3 .b_inner .thema, .book2_4 .b_inner .thema, .book2_5 .b_inner .thema {
-  width: 15%;
+.book1_1 .b_inner .themawrap, .book1_2 .b_inner .themawrap, .book1_3 .b_inner .themawrap, .book1_4 .b_inner .themawrap, .book1_5 .b_inner .themawrap, .book2_1 .b_inner .themawrap, .book2_2 .b_inner .themawrap, .book2_3 .b_inner .themawrap, .book2_4 .b_inner .themawrap, .book2_5 .b_inner .themawrap {
+  width: 234%;
   height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
 }
-.book1_1 .b_inner .thema img, .book1_2 .b_inner .thema img, .book1_3 .b_inner .thema img, .book1_4 .b_inner .thema img, .book1_5 .b_inner .thema img, .book2_1 .b_inner .thema img, .book2_2 .b_inner .thema img, .book2_3 .b_inner .thema img, .book2_4 .b_inner .thema img, .book2_5 .b_inner .thema img {
+.book1_1 .b_inner .themawrap .thema, .book1_2 .b_inner .themawrap .thema, .book1_3 .b_inner .themawrap .thema, .book1_4 .b_inner .themawrap .thema, .book1_5 .b_inner .themawrap .thema, .book2_1 .b_inner .themawrap .thema, .book2_2 .b_inner .themawrap .thema, .book2_3 .b_inner .themawrap .thema, .book2_4 .b_inner .themawrap .thema, .book2_5 .b_inner .themawrap .thema {
+  width: 14.6%;
+  height: auto;
+  padding: 0 0.4%;
+}
+.book1_1 .b_inner .themawrap .thema img, .book1_2 .b_inner .themawrap .thema img, .book1_3 .b_inner .themawrap .thema img, .book1_4 .b_inner .themawrap .thema img, .book1_5 .b_inner .themawrap .thema img, .book2_1 .b_inner .themawrap .thema img, .book2_2 .b_inner .themawrap .thema img, .book2_3 .b_inner .themawrap .thema img, .book2_4 .b_inner .themawrap .thema img, .book2_5 .b_inner .themawrap .thema img {
   width: 100%;
   border-radius: 0.5rem;
 }

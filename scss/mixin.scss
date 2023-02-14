@@ -39,10 +39,10 @@ $fontColor : rgb(19,52,118);
         margin: auto; 
         font-family: 'SUIT-Regular';
         p{
-            font-size: 4.583rem;
+            font-size: 3.9rem;
         }
         span{
-            font-size: 4.583rem; 
+            font-size: 3.9rem; 
             font-weight: bold;
         }
         .effect{
@@ -62,7 +62,7 @@ $fontColor : rgb(19,52,118);
 
             &2{
                 @include box;
-                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+                background: rgb(237, 242, 255) url(../img/effect2.png) center right/25rem no-repeat;
                 &_1{ 
                     margin: 4rem 0 1.25rem 0;  
                 }
@@ -70,7 +70,7 @@ $fontColor : rgb(19,52,118);
 
             &3{
                 @include box;
-                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat; 
+                background: rgb(237, 242, 255) url(../img/effect3.png) center right/25rem no-repeat; 
                 margin: 0 2% 0 0; 
                 &_1{ 
                     margin: 4rem 0 1.25rem 0;
@@ -79,7 +79,7 @@ $fontColor : rgb(19,52,118);
 
             &4{
                 @include box;
-                background: rgb(237, 242, 255) url(../img/effect1.png) center right/25rem no-repeat;
+                background: rgb(237, 242, 255) url(../img/effect4.png) center right/25rem no-repeat;
                 &_1{ 
                     margin: 4rem 0 1.25rem 0; 
                 }
@@ -101,6 +101,7 @@ $fontColor : rgb(19,52,118);
         color: $mainColor;
     }
     &_1,&_2,&_3,&_4,&_5{
+        width: 100%;
         margin-top: 4%;
         strong{
             font-size: 2.5rem;
@@ -114,30 +115,69 @@ $fontColor : rgb(19,52,118);
             height: auto;
             display: flex;
             justify-content: space-between;
-            &1,&2,&3,&4,&5,&6{
-                width: 10%;
-                height: 19.4775rem;
-                img{
-                    width: 100%;
-                    border-radius: 0.5rem;
+            overflow: hidden;
+            position: relative;
+            .ab{
+                width: 111.11%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                flex-shrink: 0;
+                &1,&2,&3,&4,&5,&6{
+                    width: 9.6%;
+                    height: 19.4775rem;
+                    padding: 0 0.4%;
+                    img{
+                        width: 100%;
+                        border-radius: 0.5rem;
+                    }
                 }
             }
-            .willa1,.willa2{
-                width: 24%;
+            span{
+                position: absolute;
+                color: #ccc;
+                opacity: 0.5;
+                cursor: pointer;
+                top: 33%;
+            }
+            .before{
+                left: 0;
+            }
+            .after{
+                right: 0;
+            }
+            .willa{
+                width: 250%;
                 height: auto;
+                display: flex;
+                justify-content: space-between;
+                flex-shrink: 0;
+                li{
+                width: 9.6%;
+                height: auto;
+                padding: 0 0.4%;
                 img{
                     width: 100%;
                     border-radius: 0.5rem;
+                    }
                 }
             }
-            .thema{
-                width: 15%;
+            .themawrap{
+                width: 234%;
                 height: auto;
-                img{
-                    width: 100%;
-                    border-radius: 0.5rem;
+                display: flex;
+                justify-content: space-between;
+                flex-shrink: 0;
+                .thema{
+                    width: 14.6%;
+                    height: auto;
+                    padding: 0 0.4%;
+                    img{
+                        width: 100%;
+                        border-radius: 0.5rem;
+                    }
                 }
-            }        
+            }         
         }
     }
 }
