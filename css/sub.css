@@ -453,141 +453,66 @@ footer .footer_bottom p {
 }
 
 @font-face {
-  font-family: "SUIT-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2") format("woff2");
-  font-weight: normal;
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
-@font-face {
-  font-family: "GangwonEduPowerExtraBoldA";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-#wrap {
+.section {
+  width: 100%;
   height: auto;
   margin: auto;
-  min-width: 1200px;
+  font-family: "Pretendard-Regular";
+  background-color: lightblue;
 }
-
-#slider {
-  width: 100%;
-}
-#slider img {
-  width: 100%;
-}
-
-.video {
-  width: 100%;
-}
-.video video {
-  width: 100%;
-}
-
-.free {
-  width: 100%;
-  height: auto;
-  margin-top: 7%;
-}
-.free img {
-  width: 100%;
-}
-
-.review {
-  width: 100%;
-  height: auto;
-  background-color: #000;
-  padding: 7% 0;
-  font-family: "SUIT-Regular";
-  font-weight: bold;
-  position: relative;
-}
-.review .r_inner {
-  width: 85%;
+.section1 {
+  width: 60%;
   height: auto;
   margin: auto;
-  color: #fff;
+  padding: 3rem 0;
+  background-color: lightcoral;
 }
-.review .r_inner p, .review .r_inner span {
-  font-size: 4.583rem;
+.section1 .book {
+  width: 37%;
+  height: 51.25rem;
+  float: left;
+  background-color: lightcyan;
 }
-.review .r_inner span {
-  color: #00c73c;
+.section1 .book img {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
-.review .r_inner .r_videowrap {
+.section1 .selling {
+  width: 60%;
+  height: auto;
+  float: right;
+  background-color: lightgoldenrodyellow;
+}
+.section1 .selling .count {
   width: 100%;
   height: auto;
-  margin-top: 4%;
-  overflow: hidden;
+  margin: 1rem 0;
+  background-color: lightgray;
 }
-.review .r_inner .r_videowrap .r_video {
-  width: 271rem;
+.section1 .selling .count strong {
+  font-size: 1.666rem;
+}
+.section1 .selling .count p {
+  font-size: 1.166rem;
+  color: #aaa;
+  margin-top: 1rem;
+}
+.section1 .selling .count .keep {
+  width: 12%;
   height: auto;
   display: flex;
   justify-content: space-between;
+  background-color: lightgreen;
 }
-.review .r_inner .r_videowrap .r_video1, .review .r_inner .r_videowrap .r_video2, .review .r_inner .r_videowrap .r_video3, .review .r_inner .r_videowrap .r_video4, .review .r_inner .r_videowrap .r_video5, .review .r_inner .r_videowrap .r_video6, .review .r_inner .r_videowrap .r_video7, .review .r_inner .r_videowrap .r_video8 {
-  width: 32.7rem;
-  height: auto;
+.section1 .selling .count .keep p {
+  font-size: 1rem;
 }
-.review .r_inner .r_videowrap .r_video1 iframe, .review .r_inner .r_videowrap .r_video2 iframe, .review .r_inner .r_videowrap .r_video3 iframe, .review .r_inner .r_videowrap .r_video4 iframe, .review .r_inner .r_videowrap .r_video5 iframe, .review .r_inner .r_videowrap .r_video6 iframe, .review .r_inner .r_videowrap .r_video7 iframe, .review .r_inner .r_videowrap .r_video8 iframe {
-  width: 100%;
-  height: 20rem;
-  margin-bottom: 2%;
-}
-.review .r_inner .r_videowrap .r_video1 p, .review .r_inner .r_videowrap .r_video2 p, .review .r_inner .r_videowrap .r_video3 p, .review .r_inner .r_videowrap .r_video4 p, .review .r_inner .r_videowrap .r_video5 p, .review .r_inner .r_videowrap .r_video6 p, .review .r_inner .r_videowrap .r_video7 p, .review .r_inner .r_videowrap .r_video8 p {
-  font-size: 2.166rem;
-}
-.review span {
-  color: #fff;
-  font-size: 5.833rem;
-  position: absolute;
-  cursor: pointer;
-}
-.review .prev {
-  left: 3%;
-  top: 45%;
-}
-.review .next {
-  right: 3%;
-  top: 45%;
-}
-
-.FAQ {
-  width: 55%;
-  height: auto;
-  margin: auto;
-  padding: 2.5% 0 4.5% 0;
-}
-.FAQ strong {
-  font-size: 40px;
-  font-family: "GangwonEduPowerExtraBoldA";
-}
-.FAQ .question {
-  width: 92.6%;
-  height: auto;
-  font-family: "Pretendard-Regular";
-}
-.FAQ .question1, .FAQ .question2, .FAQ .question3, .FAQ .question4, .FAQ .question5 {
-  width: 100%;
-  height: auto;
-  margin-top: 3%;
-  padding: 2% 4%;
-  border-radius: 1.5rem;
-  background-color: rgb(245, 246, 249);
-  position: relative;
-}
-.FAQ .question1 span, .FAQ .question1 i, .FAQ .question2 span, .FAQ .question2 i, .FAQ .question3 span, .FAQ .question3 i, .FAQ .question4 span, .FAQ .question4 i, .FAQ .question5 span, .FAQ .question5 i {
-  font-size: 1.666rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-.FAQ .question1 i, .FAQ .question2 i, .FAQ .question3 i, .FAQ .question4 i, .FAQ .question5 i {
-  position: absolute;
-  right: 4%;
-}
-.FAQ .question1 p, .FAQ .question2 p, .FAQ .question3 p, .FAQ .question4 p, .FAQ .question5 p {
-  font-size: 1.333rem;
-  margin-top: 2.5%;
-  display: none;
+.section1 .selling .count .keep p i {
+  color: #00c73c;
 }

@@ -39,12 +39,13 @@ $(function(){
     $('.before').click(function(){    
         
         page--; 
-        
+
+        $(this).stop().fadeOut();
+        $(this).siblings().stop().show();
+
         if(page<0){
-            page=0;
-            $(this).stop().fadeOut();
-            $(this).siblings().stop().show();
-            return;
+            page=0;            
+            
         }
         
         $(this).siblings('.ab').stop().animate({ marginLeft: -180 * page}, 800);
@@ -54,14 +55,13 @@ $(function(){
     $('.after').click(function(){
         
         page++;
-        console.log(page)
-        console.log($(this).siblings('.ab').find('li').length)
 
         if(page > $(this).siblings('.ab').find('li').length-9){
-            page = $(this).siblings('.ab').find('li').length-9;
+            page = $(this).siblings('.ab').find('li').length-9;            
+            return;
+        }else if(page=$(this).siblings('.ab').find('li').length-9){
             $(this).stop().fadeOut();
             $(this).siblings().stop().show();
-            return;
         }
 
         $(this).siblings('.ab').stop().animate({ marginLeft: -180 * page}, 800);

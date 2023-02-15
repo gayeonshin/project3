@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@import "reset","common","mixin";
+
+$mainColor : #00c73c;
+
+// 폰트
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: 'Pretendard-Regular';
+    background-color: lightblue;
+    &1{
+        width: 60%;
+        height: auto;
+        margin: auto;
+        padding: 3rem 0;
+        background-color: lightcoral;
+        .book{
+            width: 37%;
+            height: 51.25rem;
+            float: left;
+            background-color: lightcyan;
+            img{
+                width: 100%;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+            }
+        }
+        .selling{
+            width: 60%;
+            height: auto;
+            float: right;
+            background-color: lightgoldenrodyellow;
+            .count{
+                width: 100%;
+                height: auto;
+                margin: 1rem 0;
+                background-color: lightgray;
+                strong{
+                    font-size: 1.666rem;
+                }
+                p{
+                    font-size: 1.166rem;
+                    color: #aaa;
+                    margin-top: 1rem;
+                }
+                .keep{
+                    width: 12%;
+                    height: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: lightgreen;
+                    p{
+                        font-size: 1rem;
+                        i{
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
