@@ -23,7 +23,7 @@ header {
   width: 100%;
   height: 4.666rem;
   background-color: white;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -462,21 +462,20 @@ footer .footer_bottom p {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 6rem;
   font-family: "Pretendard-Regular";
-  background-color: lightblue;
 }
 .section1 {
   width: 60%;
   height: auto;
   margin: auto;
-  padding: 3rem 0;
-  background-color: lightcoral;
+  display: flex;
+  justify-content: space-between;
 }
 .section1 .book {
   width: 37%;
   height: 51.25rem;
   float: left;
-  background-color: lightcyan;
 }
 .section1 .book img {
   width: 100%;
@@ -486,21 +485,18 @@ footer .footer_bottom p {
 .section1 .selling {
   width: 60%;
   height: auto;
-  float: right;
-  background-color: lightgoldenrodyellow;
 }
 .section1 .selling .count {
   width: 100%;
   height: auto;
   margin: 1rem 0;
-  background-color: lightgray;
 }
 .section1 .selling .count strong {
   font-size: 1.666rem;
 }
 .section1 .selling .count p {
   font-size: 1.166rem;
-  color: #aaa;
+  color: rgb(149, 147, 148);
   margin-top: 1rem;
 }
 .section1 .selling .count .keep {
@@ -508,11 +504,293 @@ footer .footer_bottom p {
   height: auto;
   display: flex;
   justify-content: space-between;
-  background-color: lightgreen;
 }
 .section1 .selling .count .keep p {
   font-size: 1rem;
 }
 .section1 .selling .count .keep p i {
+  color: #00c73c;
+}
+.section1 .selling .count .total {
+  width: 100%;
+  height: auto;
+}
+.section1 .selling .count .total .sale {
+  width: 15%;
+  height: auto;
+  margin: 1.2rem 0 0.5rem 0;
+}
+.section1 .selling .count .total .sale s {
+  color: rgb(149, 147, 148);
+}
+.section1 .selling .count .total .sale strong {
+  color: red;
+  font-size: 1.666rem;
+}
+.section1 .selling .count .total span {
+  font-size: 1.666rem;
+  font-weight: bold;
+}
+.section1 .selling .pick {
+  width: 100%;
+  height: auto;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .selling .pick button {
+  width: 44%;
+  height: 4rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  font-family: "Pretendard-Regular";
+  cursor: pointer;
+}
+.section1 .selling .pick button:first-child {
+  width: 6%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+}
+.section1 .selling .pick button:first-child i {
+  font-size: 1.5rem;
+}
+.section1 .selling .info {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.section1 .selling .info1, .section1 .selling .info2, .section1 .selling .info3, .section1 .selling .info4, .section1 .selling .info5, .section1 .selling .info6 {
+  width: 93%;
+  height: auto;
+  background-color: rgb(245, 246, 249);
+  margin-top: 0.2rem;
+  padding: 2rem;
+  position: relative;
+}
+.section1 .selling .info1 span, .section1 .selling .info2 span, .section1 .selling .info3 span, .section1 .selling .info4 span, .section1 .selling .info5 span, .section1 .selling .info6 span {
+  font-size: 1.75rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.section1 .selling .info1 span i, .section1 .selling .info2 span i, .section1 .selling .info3 span i, .section1 .selling .info4 span i, .section1 .selling .info5 span i, .section1 .selling .info6 span i {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 4%;
+}
+.section1 .selling .info1 .tmpBox, .section1 .selling .info2 .tmpBox, .section1 .selling .info3 .tmpBox, .section1 .selling .info4 .tmpBox, .section1 .selling .info5 .tmpBox, .section1 .selling .info6 .tmpBox {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: none;
+}
+.section1 .selling .info1 .tmpBox p, .section1 .selling .info2 .tmpBox p, .section1 .selling .info3 .tmpBox p, .section1 .selling .info4 .tmpBox p, .section1 .selling .info5 .tmpBox p, .section1 .selling .info6 .tmpBox p {
+  font-size: 1.3rem;
+  color: #666;
+}
+.section2 {
+  width: 56%;
+  height: auto;
+  margin: auto;
+  padding: 5% 2%;
+}
+.section2 p {
+  font-size: 1.75rem;
+}
+.section2 p strong {
+  font-size: 1.75rem;
+}
+.section2 .keyword {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section2 .keyword1, .section2 .keyword2, .section2 .keyword3, .section2 .keyword4, .section2 .keyword5, .section2 .keyword6, .section2 .keyword7, .section2 .keyword8, .section2 .keyword9, .section2 .keyword10, .section2 .keyword11 {
+  width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #fafafa;
+  border-radius: 4.166rem;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.section2 .keyword1 p, .section2 .keyword2 p, .section2 .keyword3 p, .section2 .keyword4 p, .section2 .keyword5 p, .section2 .keyword6 p, .section2 .keyword7 p, .section2 .keyword8 p, .section2 .keyword9 p, .section2 .keyword10 p, .section2 .keyword11 p {
+  color: #666;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.section2 .keyword1:hover p, .section2 .keyword2:hover p, .section2 .keyword3:hover p, .section2 .keyword4:hover p, .section2 .keyword5:hover p, .section2 .keyword6:hover p, .section2 .keyword7:hover p, .section2 .keyword8:hover p, .section2 .keyword9:hover p, .section2 .keyword10:hover p, .section2 .keyword11:hover p {
+  color: #00c73c;
+}
+.section3 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(245, 246, 249);
+}
+.section3 .s_inner {
+  width: 56%;
+  height: auto;
+  margin: auto;
+  padding: 5% 2%;
+}
+.section3 .s_inner p {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.section3 .s_inner .evaluation {
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+.section3 .s_inner .evaluation .score {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+.section3 .s_inner .evaluation .score i {
+  font-size: 4rem;
+  color: #00c73c;
+}
+.section3 .s_inner .evaluation .score strong {
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+.section3 .s_inner .evaluation .score span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(149, 147, 148);
+}
+.section3 .s_inner .review {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section3 .s_inner .review1, .section3 .s_inner .review2, .section3 .s_inner .review3, .section3 .s_inner .review4, .section3 .s_inner .review5, .section3 .s_inner .review6 {
+  width: 41%;
+  height: auto;
+  margin: 3.9rem;
+  position: relative;
+}
+.section3 .s_inner .review1 .rev_inner, .section3 .s_inner .review2 .rev_inner, .section3 .s_inner .review3 .rev_inner, .section3 .s_inner .review4 .rev_inner, .section3 .s_inner .review5 .rev_inner, .section3 .s_inner .review6 .rev_inner {
+  width: 94%;
+  height: auto;
+  padding: 3%;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+.section3 .s_inner .review1 .rev_inner .star, .section3 .s_inner .review2 .rev_inner .star, .section3 .s_inner .review3 .rev_inner .star, .section3 .s_inner .review4 .rev_inner .star, .section3 .s_inner .review5 .rev_inner .star, .section3 .s_inner .review6 .rev_inner .star {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.section3 .s_inner .review1 .rev_inner .star .subscribe, .section3 .s_inner .review2 .rev_inner .star .subscribe, .section3 .s_inner .review3 .rev_inner .star .subscribe, .section3 .s_inner .review4 .rev_inner .star .subscribe, .section3 .s_inner .review5 .rev_inner .star .subscribe, .section3 .s_inner .review6 .rev_inner .star .subscribe {
+  width: 6%;
+  height: auto;
+  font-size: 1.166rem;
+  padding: 0 0.3rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.section3 .s_inner .review1 .rev_inner .star i, .section3 .s_inner .review2 .rev_inner .star i, .section3 .s_inner .review3 .rev_inner .star i, .section3 .s_inner .review4 .rev_inner .star i, .section3 .s_inner .review5 .rev_inner .star i, .section3 .s_inner .review6 .rev_inner .star i {
+  color: #00c73c;
+}
+.section3 .s_inner .review1 .rev_inner p, .section3 .s_inner .review2 .rev_inner p, .section3 .s_inner .review3 .rev_inner p, .section3 .s_inner .review4 .rev_inner p, .section3 .s_inner .review5 .rev_inner p, .section3 .s_inner .review6 .rev_inner p {
+  font-size: 1.333rem;
+  font-weight: normal;
+  color: #333;
+}
+.section3 .s_inner .review1 .rev_inner .like, .section3 .s_inner .review2 .rev_inner .like, .section3 .s_inner .review3 .rev_inner .like, .section3 .s_inner .review4 .rev_inner .like, .section3 .s_inner .review5 .rev_inner .like, .section3 .s_inner .review6 .rev_inner .like {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+}
+.section3 .s_inner .review1 .rev_inner .like p, .section3 .s_inner .review2 .rev_inner .like p, .section3 .s_inner .review3 .rev_inner .like p, .section3 .s_inner .review4 .rev_inner .like p, .section3 .s_inner .review5 .rev_inner .like p, .section3 .s_inner .review6 .rev_inner .like p {
+  font-size: 1.166rem;
+  color: #666;
+}
+.section3 .s_inner .review1 .rev_inner .like .heart, .section3 .s_inner .review2 .rev_inner .like .heart, .section3 .s_inner .review3 .rev_inner .like .heart, .section3 .s_inner .review4 .rev_inner .like .heart, .section3 .s_inner .review5 .rev_inner .like .heart, .section3 .s_inner .review6 .rev_inner .like .heart {
+  width: 5%;
+  height: auto;
+  margin-left: 0.5rem;
+  font-size: 1.166rem;
+  padding: 0 0.2rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+.section3 .s_inner .review1 .rev_inner .like .heart i, .section3 .s_inner .review2 .rev_inner .like .heart i, .section3 .s_inner .review3 .rev_inner .like .heart i, .section3 .s_inner .review4 .rev_inner .like .heart i, .section3 .s_inner .review5 .rev_inner .like .heart i, .section3 .s_inner .review6 .rev_inner .like .heart i {
+  color: #ff6666;
+}
+.section3 .s_inner .review1 .user, .section3 .s_inner .review2 .user, .section3 .s_inner .review3 .user, .section3 .s_inner .review4 .user, .section3 .s_inner .review5 .user, .section3 .s_inner .review6 .user {
+  margin-top: 1rem;
+  color: rgb(149, 147, 148);
+  position: absolute;
+  right: 0;
+}
+.section3 .s_inner .review1 .user span, .section3 .s_inner .review2 .user span, .section3 .s_inner .review3 .user span, .section3 .s_inner .review4 .user span, .section3 .s_inner .review5 .user span, .section3 .s_inner .review6 .user span {
+  color: #00c73c;
+  cursor: pointer;
+}
+.section3 .s_inner .review1 .user span:hover, .section3 .s_inner .review2 .user span:hover, .section3 .s_inner .review3 .user span:hover, .section3 .s_inner .review4 .user span:hover, .section3 .s_inner .review5 .user span:hover, .section3 .s_inner .review6 .user span:hover {
+  text-decoration: underline;
+}
+.section3 .s_inner .review .page {
+  width: 88%;
+  height: auto;
+  margin: auto;
+  padding: 1% 1.5%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3 .s_inner .review .page .number i, .section3 .s_inner .review .page .number span {
+  margin: 0 0.5rem;
+  color: #666;
+  font-size: 1.166rem;
+  cursor: pointer;
+}
+.section3 .s_inner .review .page .number i:hover, .section3 .s_inner .review .page .number span:hover {
+  color: #333;
+  font-weight: bold;
+}
+.section3 .s_inner .review .page .sequence {
+  display: flex;
+  margin: 0 1rem;
+}
+.section3 .s_inner .review .page .sequence ul {
+  display: flex;
+}
+.section3 .s_inner .review .page .sequence ul li {
+  margin: 0 0.5rem;
+  font-size: 1.333rem;
+  color: #ccc;
+}
+.section3 .s_inner .review .page .sequence ul li a {
+  color: #666;
+  font-size: 1.166rem;
+}
+.section3 .s_inner .review .page .sequence ul li a:hover {
+  color: #333;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.section3 .s_inner .review .page .sequence ul li:last-child a {
   color: #00c73c;
 }

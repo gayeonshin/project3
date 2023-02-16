@@ -3,6 +3,7 @@
 @import "reset","common","mixin";
 
 $mainColor : #00c73c;
+$bgColor : rgb(245, 246, 249);
 
 // 폰트
 @font-face {
@@ -16,19 +17,19 @@ $mainColor : #00c73c;
     width: 100%;
     height: auto;
     margin: auto;
+    padding-top: 6rem;
     font-family: 'Pretendard-Regular';
-    background-color: lightblue;
+    // 책 정보
     &1{
         width: 60%;
         height: auto;
         margin: auto;
-        padding: 3rem 0;
-        background-color: lightcoral;
+        display: flex;
+        justify-content: space-between;
         .book{
             width: 37%;
             height: 51.25rem;
             float: left;
-            background-color: lightcyan;
             img{
                 width: 100%;
                 border: 1px solid #ddd;
@@ -38,19 +39,16 @@ $mainColor : #00c73c;
         .selling{
             width: 60%;
             height: auto;
-            float: right;
-            background-color: lightgoldenrodyellow;
             .count{
                 width: 100%;
                 height: auto;
                 margin: 1rem 0;
-                background-color: lightgray;
                 strong{
                     font-size: 1.666rem;
                 }
                 p{
                     font-size: 1.166rem;
-                    color: #aaa;
+                    color: rgb(149, 147, 148);
                     margin-top: 1rem;
                 }
                 .keep{
@@ -58,11 +56,298 @@ $mainColor : #00c73c;
                     height: auto;
                     display: flex;
                     justify-content: space-between;
-                    background-color: lightgreen;
                     p{
                         font-size: 1rem;
                         i{
                             color: $mainColor;
+                        }
+                    }
+                }
+                .total{
+                    width: 100%;
+                    height: auto;
+                    .sale{
+                        width: 15%;
+                        height: auto;
+                        margin: 1.2rem 0 0.5rem 0;
+                        s{
+                            color: rgb(149, 147, 148);
+                        }
+                        strong{
+                            color: red;
+                            font-size: 1.666rem;
+                        }
+                    }
+                    span{
+                        font-size: 1.666rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .pick{
+                width: 100%;
+                height: auto;
+                margin: 3rem 0;
+                display: flex;
+                justify-content: space-between;
+                button{
+                    width: 44%;
+                    height: 4rem;
+                    background-color: #000;
+                    color: #fff;
+                    border: none;
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                    border-radius: 1rem;
+                    font-family: 'Pretendard-Regular';
+                    cursor: pointer;
+                }
+                button:first-child{
+                    width: 6%;
+                    background-color: #fff;
+                    color: #000;
+                    border: 1px solid #ddd;
+                    i{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .info{
+                width: 100%;
+                height: auto;
+                border-radius: 5%;
+                overflow: hidden;
+                &1,&2,&3,&4,&5,&6{
+                    width: 93%;
+                    height: auto;
+                    background-color: $bgColor;
+                    margin-top: 0.2rem;
+                    padding: 2rem;
+                    position: relative;
+                    span{
+                        font-size: 1.75rem;
+                        font-weight: bold;
+                        cursor: pointer;
+                        i{
+                            font-size: 1.5rem;
+                            position: absolute;
+                            right: 4%;
+                        }
+                    }
+                    .tmpBox{
+                        width: 100%;
+                        height: auto;
+                        margin-top: 2rem;
+                        display: none;
+                        p{
+                            font-size: 1.3rem;
+                            color: #666;
+                        }
+                    }
+                    
+                }
+            }    
+        }   
+    }
+    &2{
+        width: 56%;
+        height: auto;
+        margin: auto;
+        padding: 5% 2%;
+        p{
+            font-size: 1.75rem;
+            strong{
+                font-size: 1.75rem;
+            }
+        }
+        .keyword{
+            width: 100%;
+            height: auto;
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            &1,&2,&3,&4,&5,&6,&7,&8,&9,&10,&11{
+                width: auto;
+                padding: 1rem;
+                margin: 1rem;
+                background-color: #fafafa;
+                border-radius: 4.166rem;
+                border: 1px solid #ddd;
+                cursor: pointer;
+                p{
+                    color: #666;
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                    text-align: center;
+                }
+                &:hover p{
+                    color: $mainColor;
+                }
+            }
+            
+        }
+    }
+    &3{
+        width: 100%;
+        height: auto;
+        background-color: $bgColor;
+        .s_inner{
+            width: 56%;
+            height: auto;
+            margin: auto;
+            padding: 5% 2%;
+            p{
+                font-size: 1.75rem;
+                font-weight: bold;
+            }
+            .evaluation{
+                width: 100%;
+                height: auto;
+                margin-top: 3%;
+                text-align: center;
+                .score{
+                    width: 100%;
+                    height: auto;
+                    margin: 2rem 0;
+                    i{
+                        font-size: 4rem;
+                        color: $mainColor;
+                    }
+                    strong{
+                        font-size: 4rem;
+                        margin-left: 1rem;
+                    }
+                    span{
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: rgb(149, 147, 148);
+                    }
+                }
+                
+            }
+            .review{
+                width: 100%;
+                height: auto;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                &1,&2,&3,&4,&5,&6{
+                    width: 41%;
+                    height: auto;
+                    margin: 3.9rem;
+                    position: relative;
+                    .rev_inner{
+                        width: 94%;
+                        height: auto;
+                        padding: 3%;
+                        border: 1px solid #ddd;
+                        background-color: #f8f8f8;
+                        .star{
+                            width: 100%;
+                            height: auto;
+                            margin-bottom: 1rem;
+                            display: flex;
+                            align-items: center;
+                            .subscribe{
+                                width: 6%;
+                                height: auto;
+                                font-size: 1.166rem;
+                                padding: 0 0.3rem;
+                                margin-right: 0.5rem;
+                                border: 1px solid #ddd;
+                                background-color: #fff;
+                            }
+                            i{
+                                color: $mainColor;
+                            }
+                        }
+                        p{
+                            font-size: 1.333rem;
+                            font-weight: normal;
+                            color: #333;
+                        }
+                        .like{
+                            width: 100%;
+                            height: auto;
+                            margin-top: 1rem;
+                            display: flex;
+                            p{
+                                font-size: 1.166rem;
+                                color: #666;
+                            }
+                            .heart{
+                                width: 5%;
+                                height: auto;
+                                margin-left: 0.5rem;
+                                font-size: 1.166rem;
+                                padding: 0 0.2rem;
+                                border: 1px solid #ddd;
+                                background-color: #fff;
+                                cursor: pointer;
+                                i{
+                                        color: #ff6666;
+                                }
+                            }
+                        }
+                    }
+                    .user{
+                        margin-top: 1rem;
+                        color: rgb(149, 147, 148);
+                        position: absolute;
+                        right: 0;
+                        span{
+                            color: $mainColor;
+                            cursor: pointer;
+                            &:hover{
+                                text-decoration: underline;
+                            }  
+                        }
+                    }                   
+                }
+                .page{
+                    width: 88%;
+                    height: auto;
+                    margin: auto;
+                    padding: 1% 1.5%;
+                    border: 1px solid #ddd;
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .number{
+                        i,span{
+                            margin: 0 0.5rem;
+                            color: #666;
+                            font-size: 1.166rem;
+                            cursor: pointer;
+                            &:hover{
+                                color: #333;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .sequence{
+                        display: flex;
+                        margin: 0 1rem;
+                        ul{
+                            display: flex;
+                            li{
+                                margin: 0 0.5rem;
+                                font-size: 1.333rem;
+                                color: #ccc;
+                                a{
+                                    color: #666;
+                                    font-size: 1.166rem;
+                                    &:hover{
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-decoration: underline;
+                                    }
+                                }
+                                &:last-child a{
+                                    color: $mainColor;
+                                }
+                            }
                         }
                     }
                 }
