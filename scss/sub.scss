@@ -13,6 +13,12 @@ $bgColor : rgb(245, 246, 249);
     font-style: normal;
 }
 
+#wrap{
+    height: auto;
+    margin: auto;
+    min-width: 1885px;
+}
+
 .section{
     width: 100%;
     height: auto;
@@ -115,7 +121,7 @@ $bgColor : rgb(245, 246, 249);
             .info{
                 width: 100%;
                 height: auto;
-                border-radius: 5%;
+                border-radius: 50px;
                 overflow: hidden;
                 &1,&2,&3,&4,&5,&6{
                     width: 93%;
@@ -124,10 +130,10 @@ $bgColor : rgb(245, 246, 249);
                     margin-top: 0.2rem;
                     padding: 2rem;
                     position: relative;
+                    cursor: pointer;
                     span{
                         font-size: 1.75rem;
                         font-weight: bold;
-                        cursor: pointer;
                         i{
                             font-size: 1.5rem;
                             position: absolute;
@@ -149,6 +155,7 @@ $bgColor : rgb(245, 246, 249);
             }    
         }   
     }
+    // 키워드
     &2{
         width: 56%;
         height: auto;
@@ -187,7 +194,72 @@ $bgColor : rgb(245, 246, 249);
             
         }
     }
+    // 작가의 다른 상품
     &3{
+        width: 100%;
+        height: auto;
+        .a_wrap{
+            width: 57%;
+            height: auto;
+            margin: auto;
+            padding: 5% 1.5%;
+            p{
+                font-size: 1.75rem;
+                font-weight: bold;
+            }
+            .another{
+                width: 100%;
+                height: auto;
+                margin: auto;
+                padding-top: 3%;
+                overflow: hidden;
+                position: relative;
+                .a_book{
+                    width: 200%;
+                    height: auto;
+                    display: flex;
+                    &1,&2,&3,&4,&5,&6{
+                        width: 20%;
+                        height: 28rem;
+                        margin: auto;
+                        padding: 0 0.4%;
+                        img{
+                            width: 100%;
+                        }
+                        strong{
+                            font-size: 1.4rem;
+                        }
+                        p{
+                            font-size: 1.2rem;
+                            font-weight: normal;
+                        }
+                    }
+                }
+                .before,.after{
+                    position: absolute;
+                    background-color: #333;
+                    opacity: 0.7;
+                    width: 2.833rem;
+                    height: 3.166rem;
+                    top: 42%;
+                    cursor: pointer;
+                    span{
+                        color: #fff;
+                        font-size: 2.5rem;
+                        margin-left: 0.5rem;
+                    }
+                }
+                .before{
+                    left: 0;
+                }
+                .after{
+                    right: 0;
+                }
+            }
+        }
+    }
+    // 별점 | 리뷰
+    &4{
         width: 100%;
         height: auto;
         background-color: $bgColor;
@@ -321,7 +393,7 @@ $bgColor : rgb(245, 246, 249);
                             font-size: 1.166rem;
                             cursor: pointer;
                             &:hover{
-                                color: #333;
+                                color: #000;
                                 font-weight: bold;
                             }
                         }
@@ -329,8 +401,23 @@ $bgColor : rgb(245, 246, 249);
                     .sequence{
                         display: flex;
                         margin: 0 1rem;
+                        label{
+                            margin-right: 1rem;
+                            color: #666;
+                            font-size: 1.166rem;
+                            height: 2.5rem;
+                            line-height: 2.5rem;
+                            cursor: pointer;
+                            input{
+                                width: 1.166rem;
+                                height: 1.166rem;
+                                margin-right: 0.5rem;
+                                vertical-align: -0.166rem;
+                            }
+                        }
                         ul{
                             display: flex;
+                            line-height: 2.5rem;
                             li{
                                 margin: 0 0.5rem;
                                 font-size: 1.333rem;
@@ -344,7 +431,7 @@ $bgColor : rgb(245, 246, 249);
                                         text-decoration: underline;
                                     }
                                 }
-                                &:last-child a{
+                                &:first-child a{
                                     color: $mainColor;
                                 }
                             }

@@ -576,11 +576,11 @@ footer .footer_bottom p {
   border-radius: 1.5rem;
   background-color: rgb(245, 246, 249);
   position: relative;
+  cursor: pointer;
 }
 .FAQ .question1 span, .FAQ .question1 i, .FAQ .question2 span, .FAQ .question2 i, .FAQ .question3 span, .FAQ .question3 i, .FAQ .question4 span, .FAQ .question4 i, .FAQ .question5 span, .FAQ .question5 i {
   font-size: 1.666rem;
   font-weight: bold;
-  cursor: pointer;
 }
 .FAQ .question1 i, .FAQ .question2 i, .FAQ .question3 i, .FAQ .question4 i, .FAQ .question5 i {
   position: absolute;

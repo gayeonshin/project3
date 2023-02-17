@@ -458,6 +458,12 @@ footer .footer_bottom p {
   font-weight: 400;
   font-style: normal;
 }
+#wrap {
+  height: auto;
+  margin: auto;
+  min-width: 1885px;
+}
+
 .section {
   width: 100%;
   height: auto;
@@ -562,7 +568,7 @@ footer .footer_bottom p {
 .section1 .selling .info {
   width: 100%;
   height: auto;
-  border-radius: 5%;
+  border-radius: 50px;
   overflow: hidden;
 }
 .section1 .selling .info1, .section1 .selling .info2, .section1 .selling .info3, .section1 .selling .info4, .section1 .selling .info5, .section1 .selling .info6 {
@@ -572,11 +578,11 @@ footer .footer_bottom p {
   margin-top: 0.2rem;
   padding: 2rem;
   position: relative;
+  cursor: pointer;
 }
 .section1 .selling .info1 span, .section1 .selling .info2 span, .section1 .selling .info3 span, .section1 .selling .info4 span, .section1 .selling .info5 span, .section1 .selling .info6 span {
   font-size: 1.75rem;
   font-weight: bold;
-  cursor: pointer;
 }
 .section1 .selling .info1 span i, .section1 .selling .info2 span i, .section1 .selling .info3 span i, .section1 .selling .info4 span i, .section1 .selling .info5 span i, .section1 .selling .info6 span i {
   font-size: 1.5rem;
@@ -633,70 +639,133 @@ footer .footer_bottom p {
 .section3 {
   width: 100%;
   height: auto;
+}
+.section3 .a_wrap {
+  width: 57%;
+  height: auto;
+  margin: auto;
+  padding: 5% 1.5%;
+}
+.section3 .a_wrap p {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.section3 .a_wrap .another {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 3%;
+  overflow: hidden;
+  position: relative;
+}
+.section3 .a_wrap .another .a_book {
+  width: 200%;
+  height: auto;
+  display: flex;
+}
+.section3 .a_wrap .another .a_book1, .section3 .a_wrap .another .a_book2, .section3 .a_wrap .another .a_book3, .section3 .a_wrap .another .a_book4, .section3 .a_wrap .another .a_book5, .section3 .a_wrap .another .a_book6 {
+  width: 20%;
+  height: 28rem;
+  margin: auto;
+  padding: 0 0.4%;
+}
+.section3 .a_wrap .another .a_book1 img, .section3 .a_wrap .another .a_book2 img, .section3 .a_wrap .another .a_book3 img, .section3 .a_wrap .another .a_book4 img, .section3 .a_wrap .another .a_book5 img, .section3 .a_wrap .another .a_book6 img {
+  width: 100%;
+}
+.section3 .a_wrap .another .a_book1 strong, .section3 .a_wrap .another .a_book2 strong, .section3 .a_wrap .another .a_book3 strong, .section3 .a_wrap .another .a_book4 strong, .section3 .a_wrap .another .a_book5 strong, .section3 .a_wrap .another .a_book6 strong {
+  font-size: 1.4rem;
+}
+.section3 .a_wrap .another .a_book1 p, .section3 .a_wrap .another .a_book2 p, .section3 .a_wrap .another .a_book3 p, .section3 .a_wrap .another .a_book4 p, .section3 .a_wrap .another .a_book5 p, .section3 .a_wrap .another .a_book6 p {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.section3 .a_wrap .another .before, .section3 .a_wrap .another .after {
+  position: absolute;
+  background-color: #333;
+  opacity: 0.7;
+  width: 2.833rem;
+  height: 3.166rem;
+  top: 42%;
+  cursor: pointer;
+}
+.section3 .a_wrap .another .before span, .section3 .a_wrap .another .after span {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
+}
+.section3 .a_wrap .another .before {
+  left: 0;
+}
+.section3 .a_wrap .another .after {
+  right: 0;
+}
+.section4 {
+  width: 100%;
+  height: auto;
   background-color: rgb(245, 246, 249);
 }
-.section3 .s_inner {
+.section4 .s_inner {
   width: 56%;
   height: auto;
   margin: auto;
   padding: 5% 2%;
 }
-.section3 .s_inner p {
+.section4 .s_inner p {
   font-size: 1.75rem;
   font-weight: bold;
 }
-.section3 .s_inner .evaluation {
+.section4 .s_inner .evaluation {
   width: 100%;
   height: auto;
   margin-top: 3%;
   text-align: center;
 }
-.section3 .s_inner .evaluation .score {
+.section4 .s_inner .evaluation .score {
   width: 100%;
   height: auto;
   margin: 2rem 0;
 }
-.section3 .s_inner .evaluation .score i {
+.section4 .s_inner .evaluation .score i {
   font-size: 4rem;
   color: #00c73c;
 }
-.section3 .s_inner .evaluation .score strong {
+.section4 .s_inner .evaluation .score strong {
   font-size: 4rem;
   margin-left: 1rem;
 }
-.section3 .s_inner .evaluation .score span {
+.section4 .s_inner .evaluation .score span {
   font-size: 2.5rem;
   font-weight: bold;
   color: rgb(149, 147, 148);
 }
-.section3 .s_inner .review {
+.section4 .s_inner .review {
   width: 100%;
   height: auto;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
-.section3 .s_inner .review1, .section3 .s_inner .review2, .section3 .s_inner .review3, .section3 .s_inner .review4, .section3 .s_inner .review5, .section3 .s_inner .review6 {
+.section4 .s_inner .review1, .section4 .s_inner .review2, .section4 .s_inner .review3, .section4 .s_inner .review4, .section4 .s_inner .review5, .section4 .s_inner .review6 {
   width: 41%;
   height: auto;
   margin: 3.9rem;
   position: relative;
 }
-.section3 .s_inner .review1 .rev_inner, .section3 .s_inner .review2 .rev_inner, .section3 .s_inner .review3 .rev_inner, .section3 .s_inner .review4 .rev_inner, .section3 .s_inner .review5 .rev_inner, .section3 .s_inner .review6 .rev_inner {
+.section4 .s_inner .review1 .rev_inner, .section4 .s_inner .review2 .rev_inner, .section4 .s_inner .review3 .rev_inner, .section4 .s_inner .review4 .rev_inner, .section4 .s_inner .review5 .rev_inner, .section4 .s_inner .review6 .rev_inner {
   width: 94%;
   height: auto;
   padding: 3%;
   border: 1px solid #ddd;
   background-color: #f8f8f8;
 }
-.section3 .s_inner .review1 .rev_inner .star, .section3 .s_inner .review2 .rev_inner .star, .section3 .s_inner .review3 .rev_inner .star, .section3 .s_inner .review4 .rev_inner .star, .section3 .s_inner .review5 .rev_inner .star, .section3 .s_inner .review6 .rev_inner .star {
+.section4 .s_inner .review1 .rev_inner .star, .section4 .s_inner .review2 .rev_inner .star, .section4 .s_inner .review3 .rev_inner .star, .section4 .s_inner .review4 .rev_inner .star, .section4 .s_inner .review5 .rev_inner .star, .section4 .s_inner .review6 .rev_inner .star {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
 }
-.section3 .s_inner .review1 .rev_inner .star .subscribe, .section3 .s_inner .review2 .rev_inner .star .subscribe, .section3 .s_inner .review3 .rev_inner .star .subscribe, .section3 .s_inner .review4 .rev_inner .star .subscribe, .section3 .s_inner .review5 .rev_inner .star .subscribe, .section3 .s_inner .review6 .rev_inner .star .subscribe {
+.section4 .s_inner .review1 .rev_inner .star .subscribe, .section4 .s_inner .review2 .rev_inner .star .subscribe, .section4 .s_inner .review3 .rev_inner .star .subscribe, .section4 .s_inner .review4 .rev_inner .star .subscribe, .section4 .s_inner .review5 .rev_inner .star .subscribe, .section4 .s_inner .review6 .rev_inner .star .subscribe {
   width: 6%;
   height: auto;
   font-size: 1.166rem;
@@ -705,25 +774,25 @@ footer .footer_bottom p {
   border: 1px solid #ddd;
   background-color: #fff;
 }
-.section3 .s_inner .review1 .rev_inner .star i, .section3 .s_inner .review2 .rev_inner .star i, .section3 .s_inner .review3 .rev_inner .star i, .section3 .s_inner .review4 .rev_inner .star i, .section3 .s_inner .review5 .rev_inner .star i, .section3 .s_inner .review6 .rev_inner .star i {
+.section4 .s_inner .review1 .rev_inner .star i, .section4 .s_inner .review2 .rev_inner .star i, .section4 .s_inner .review3 .rev_inner .star i, .section4 .s_inner .review4 .rev_inner .star i, .section4 .s_inner .review5 .rev_inner .star i, .section4 .s_inner .review6 .rev_inner .star i {
   color: #00c73c;
 }
-.section3 .s_inner .review1 .rev_inner p, .section3 .s_inner .review2 .rev_inner p, .section3 .s_inner .review3 .rev_inner p, .section3 .s_inner .review4 .rev_inner p, .section3 .s_inner .review5 .rev_inner p, .section3 .s_inner .review6 .rev_inner p {
+.section4 .s_inner .review1 .rev_inner p, .section4 .s_inner .review2 .rev_inner p, .section4 .s_inner .review3 .rev_inner p, .section4 .s_inner .review4 .rev_inner p, .section4 .s_inner .review5 .rev_inner p, .section4 .s_inner .review6 .rev_inner p {
   font-size: 1.333rem;
   font-weight: normal;
   color: #333;
 }
-.section3 .s_inner .review1 .rev_inner .like, .section3 .s_inner .review2 .rev_inner .like, .section3 .s_inner .review3 .rev_inner .like, .section3 .s_inner .review4 .rev_inner .like, .section3 .s_inner .review5 .rev_inner .like, .section3 .s_inner .review6 .rev_inner .like {
+.section4 .s_inner .review1 .rev_inner .like, .section4 .s_inner .review2 .rev_inner .like, .section4 .s_inner .review3 .rev_inner .like, .section4 .s_inner .review4 .rev_inner .like, .section4 .s_inner .review5 .rev_inner .like, .section4 .s_inner .review6 .rev_inner .like {
   width: 100%;
   height: auto;
   margin-top: 1rem;
   display: flex;
 }
-.section3 .s_inner .review1 .rev_inner .like p, .section3 .s_inner .review2 .rev_inner .like p, .section3 .s_inner .review3 .rev_inner .like p, .section3 .s_inner .review4 .rev_inner .like p, .section3 .s_inner .review5 .rev_inner .like p, .section3 .s_inner .review6 .rev_inner .like p {
+.section4 .s_inner .review1 .rev_inner .like p, .section4 .s_inner .review2 .rev_inner .like p, .section4 .s_inner .review3 .rev_inner .like p, .section4 .s_inner .review4 .rev_inner .like p, .section4 .s_inner .review5 .rev_inner .like p, .section4 .s_inner .review6 .rev_inner .like p {
   font-size: 1.166rem;
   color: #666;
 }
-.section3 .s_inner .review1 .rev_inner .like .heart, .section3 .s_inner .review2 .rev_inner .like .heart, .section3 .s_inner .review3 .rev_inner .like .heart, .section3 .s_inner .review4 .rev_inner .like .heart, .section3 .s_inner .review5 .rev_inner .like .heart, .section3 .s_inner .review6 .rev_inner .like .heart {
+.section4 .s_inner .review1 .rev_inner .like .heart, .section4 .s_inner .review2 .rev_inner .like .heart, .section4 .s_inner .review3 .rev_inner .like .heart, .section4 .s_inner .review4 .rev_inner .like .heart, .section4 .s_inner .review5 .rev_inner .like .heart, .section4 .s_inner .review6 .rev_inner .like .heart {
   width: 5%;
   height: auto;
   margin-left: 0.5rem;
@@ -733,23 +802,23 @@ footer .footer_bottom p {
   background-color: #fff;
   cursor: pointer;
 }
-.section3 .s_inner .review1 .rev_inner .like .heart i, .section3 .s_inner .review2 .rev_inner .like .heart i, .section3 .s_inner .review3 .rev_inner .like .heart i, .section3 .s_inner .review4 .rev_inner .like .heart i, .section3 .s_inner .review5 .rev_inner .like .heart i, .section3 .s_inner .review6 .rev_inner .like .heart i {
+.section4 .s_inner .review1 .rev_inner .like .heart i, .section4 .s_inner .review2 .rev_inner .like .heart i, .section4 .s_inner .review3 .rev_inner .like .heart i, .section4 .s_inner .review4 .rev_inner .like .heart i, .section4 .s_inner .review5 .rev_inner .like .heart i, .section4 .s_inner .review6 .rev_inner .like .heart i {
   color: #ff6666;
 }
-.section3 .s_inner .review1 .user, .section3 .s_inner .review2 .user, .section3 .s_inner .review3 .user, .section3 .s_inner .review4 .user, .section3 .s_inner .review5 .user, .section3 .s_inner .review6 .user {
+.section4 .s_inner .review1 .user, .section4 .s_inner .review2 .user, .section4 .s_inner .review3 .user, .section4 .s_inner .review4 .user, .section4 .s_inner .review5 .user, .section4 .s_inner .review6 .user {
   margin-top: 1rem;
   color: rgb(149, 147, 148);
   position: absolute;
   right: 0;
 }
-.section3 .s_inner .review1 .user span, .section3 .s_inner .review2 .user span, .section3 .s_inner .review3 .user span, .section3 .s_inner .review4 .user span, .section3 .s_inner .review5 .user span, .section3 .s_inner .review6 .user span {
+.section4 .s_inner .review1 .user span, .section4 .s_inner .review2 .user span, .section4 .s_inner .review3 .user span, .section4 .s_inner .review4 .user span, .section4 .s_inner .review5 .user span, .section4 .s_inner .review6 .user span {
   color: #00c73c;
   cursor: pointer;
 }
-.section3 .s_inner .review1 .user span:hover, .section3 .s_inner .review2 .user span:hover, .section3 .s_inner .review3 .user span:hover, .section3 .s_inner .review4 .user span:hover, .section3 .s_inner .review5 .user span:hover, .section3 .s_inner .review6 .user span:hover {
+.section4 .s_inner .review1 .user span:hover, .section4 .s_inner .review2 .user span:hover, .section4 .s_inner .review3 .user span:hover, .section4 .s_inner .review4 .user span:hover, .section4 .s_inner .review5 .user span:hover, .section4 .s_inner .review6 .user span:hover {
   text-decoration: underline;
 }
-.section3 .s_inner .review .page {
+.section4 .s_inner .review .page {
   width: 88%;
   height: auto;
   margin: auto;
@@ -760,37 +829,52 @@ footer .footer_bottom p {
   justify-content: space-between;
   align-items: center;
 }
-.section3 .s_inner .review .page .number i, .section3 .s_inner .review .page .number span {
+.section4 .s_inner .review .page .number i, .section4 .s_inner .review .page .number span {
   margin: 0 0.5rem;
   color: #666;
   font-size: 1.166rem;
   cursor: pointer;
 }
-.section3 .s_inner .review .page .number i:hover, .section3 .s_inner .review .page .number span:hover {
-  color: #333;
+.section4 .s_inner .review .page .number i:hover, .section4 .s_inner .review .page .number span:hover {
+  color: #000;
   font-weight: bold;
 }
-.section3 .s_inner .review .page .sequence {
+.section4 .s_inner .review .page .sequence {
   display: flex;
   margin: 0 1rem;
 }
-.section3 .s_inner .review .page .sequence ul {
-  display: flex;
+.section4 .s_inner .review .page .sequence label {
+  margin-right: 1rem;
+  color: #666;
+  font-size: 1.166rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  cursor: pointer;
 }
-.section3 .s_inner .review .page .sequence ul li {
+.section4 .s_inner .review .page .sequence label input {
+  width: 1.166rem;
+  height: 1.166rem;
+  margin-right: 0.5rem;
+  vertical-align: -0.166rem;
+}
+.section4 .s_inner .review .page .sequence ul {
+  display: flex;
+  line-height: 2.5rem;
+}
+.section4 .s_inner .review .page .sequence ul li {
   margin: 0 0.5rem;
   font-size: 1.333rem;
   color: #ccc;
 }
-.section3 .s_inner .review .page .sequence ul li a {
+.section4 .s_inner .review .page .sequence ul li a {
   color: #666;
   font-size: 1.166rem;
 }
-.section3 .s_inner .review .page .sequence ul li a:hover {
+.section4 .s_inner .review .page .sequence ul li a:hover {
   color: #333;
   font-weight: bold;
   text-decoration: underline;
 }
-.section3 .s_inner .review .page .sequence ul li:last-child a {
+.section4 .s_inner .review .page .sequence ul li:first-child a {
   color: #00c73c;
 }

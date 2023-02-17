@@ -1,7 +1,7 @@
 // 윌라만의 스페셜 라인업, 큐레이션 시리즈
 // 책 정보 불러오기
 var search;
-search = ["넛지","인생","지혜","magazine","더글러스 케네디","그림책 동화","기욤 뮈소"];
+search = ["인생","지혜","magazine","더글러스 케네디","그림책 동화","기욤 뮈소"];
 
 for (i = 0; i < search.length; i++) {
 
@@ -131,9 +131,9 @@ $(function(){
 
 // FAQ
 $(function(){
-    $(".question>div span").click(function(){
-        $(this).siblings("p").slideToggle();
-        $(this).find("i").toggleClass('fa-chevron-down').toggleClass('fa-chevron-up');
+    $(".question div").click(function(){
+        $(this).children("p").slideToggle();
+        $(this).children("span").find("i").toggleClass('fa-chevron-down').toggleClass('fa-chevron-up');
     });
     // $(".question2 span").click(function(){
     //     $(".question2 p").slideToggle();
