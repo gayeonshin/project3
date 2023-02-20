@@ -16,7 +16,7 @@ $bgColor : rgb(245, 246, 249);
 #wrap{
     height: auto;
     margin: auto;
-    min-width: 1885px;
+    min-width: 1200px;
 }
 
 .section{
@@ -27,7 +27,7 @@ $bgColor : rgb(245, 246, 249);
     font-family: 'Pretendard-Regular';
     // 책 정보
     &1{
-        width: 60%;
+        width: 70%;
         height: auto;
         margin: auto;
         display: flex;
@@ -58,7 +58,7 @@ $bgColor : rgb(245, 246, 249);
                     margin-top: 1rem;
                 }
                 .keep{
-                    width: 12%;
+                    width: 6rem;
                     height: auto;
                     display: flex;
                     justify-content: space-between;
@@ -73,7 +73,7 @@ $bgColor : rgb(245, 246, 249);
                     width: 100%;
                     height: auto;
                     .sale{
-                        width: 15%;
+                        width: 7rem;
                         height: auto;
                         margin: 1.2rem 0 0.5rem 0;
                         s{
@@ -157,7 +157,7 @@ $bgColor : rgb(245, 246, 249);
     }
     // 키워드
     &2{
-        width: 56%;
+        width: 66%;
         height: auto;
         margin: auto;
         padding: 5% 2%;
@@ -199,7 +199,7 @@ $bgColor : rgb(245, 246, 249);
         width: 100%;
         height: auto;
         .a_wrap{
-            width: 57%;
+            width: 67%;
             height: auto;
             margin: auto;
             padding: 5% 1.5%;
@@ -220,7 +220,7 @@ $bgColor : rgb(245, 246, 249);
                     display: flex;
                     &1,&2,&3,&4,&5,&6{
                         width: 20%;
-                        height: 28rem;
+                        height: auto;
                         margin: auto;
                         padding: 0 0.4%;
                         img{
@@ -241,7 +241,8 @@ $bgColor : rgb(245, 246, 249);
                     opacity: 0.7;
                     width: 2.833rem;
                     height: 3.166rem;
-                    top: 42%;
+                    top: 50%;
+                    transform: translateY(-50%);
                     cursor: pointer;
                     span{
                         color: #fff;
@@ -264,7 +265,7 @@ $bgColor : rgb(245, 246, 249);
         height: auto;
         background-color: $bgColor;
         .s_inner{
-            width: 56%;
+            width: 66%;
             height: auto;
             margin: auto;
             padding: 5% 2%;
@@ -303,10 +304,11 @@ $bgColor : rgb(245, 246, 249);
                 margin: auto;
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-around;
                 &1,&2,&3,&4,&5,&6{
-                    width: 41%;
+                    width: 40%;
                     height: auto;
-                    margin: 3.9rem;
+                    margin: 3.3rem 3rem;
                     position: relative;
                     .rev_inner{
                         width: 94%;
@@ -321,7 +323,7 @@ $bgColor : rgb(245, 246, 249);
                             display: flex;
                             align-items: center;
                             .subscribe{
-                                width: 6%;
+                                width: 2.1rem;
                                 height: auto;
                                 font-size: 1.166rem;
                                 padding: 0 0.3rem;
@@ -348,7 +350,7 @@ $bgColor : rgb(245, 246, 249);
                                 color: #666;
                             }
                             .heart{
-                                width: 5%;
+                                width: 1.7rem;
                                 height: auto;
                                 margin-left: 0.5rem;
                                 font-size: 1.166rem;
@@ -377,10 +379,10 @@ $bgColor : rgb(245, 246, 249);
                     }                   
                 }
                 .page{
-                    width: 88%;
+                    width: 100%;
                     height: auto;
                     margin: auto;
-                    padding: 1% 1.5%;
+                    padding: 1% 0;
                     border: 1px solid #ddd;
                     background-color: #fff;
                     display: flex;
