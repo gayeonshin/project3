@@ -831,6 +831,9 @@ footer .footer_bottom p {
   justify-content: space-between;
   align-items: center;
 }
+.section4 .s_inner .review .page .number {
+  margin: 0 1rem;
+}
 .section4 .s_inner .review .page .number i, .section4 .s_inner .review .page .number span {
   margin: 0 0.5rem;
   color: #666;
